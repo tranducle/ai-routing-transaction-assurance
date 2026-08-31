@@ -1,0 +1,10 @@
+study,evidence_item,numerator,denominator,rate,interpretation
+PE11,terminal_only_unsafe_admissions,19,118,0.1610,"B2 same-input nested ablation on deterministic-reference-unsafe proposals"
+PE11,full_unsafe_admissions,0,118,0.0000,"Full guard on deterministic-reference-unsafe proposals"
+PE11,full_safe_rejections,0,138,0.0000,"Full guard on deterministic-reference-safe controls"
+PE13,recovery_ablation_unsafe_admissions,78,97,0.8041,"B5 same-input nested recovery ablation on recovery-unsafe proposals"
+PE13,full_recovery_unsafe_admissions,0,97,0.0000,"Full guard on recovery-unsafe proposals"
+PE13,full_safe_rejections,0,530,0.0000,"Full guard on deterministic-reference-safe controls"
+D6,historical_live_agreement,78,80,0.9750,"Historical live study; failed the frozen 100% agreement criterion"
+PE12,prospective_live_agreement,40,40,1.0000,"Separate prospective cohort after fail-closed identity correction"
+D7,compatible_public_units,0,527,0.0000,"Compatibility exclusions; not method failures"
