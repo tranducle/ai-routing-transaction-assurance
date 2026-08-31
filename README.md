@@ -1,4 +1,4 @@
-# Deterministic Assurance for AI-Generated Routing Transactions
+# Deterministic Assurance for Untrusted AI-Generated Routing Transactions
 
 ## Reproducibility artifact
 
