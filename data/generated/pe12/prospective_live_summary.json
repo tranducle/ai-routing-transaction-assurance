@@ -1,0 +1,16 @@
+{
+  "agreement_count": 40,
+  "agreement_rate": 1.0,
+  "completed_cases": 40,
+  "expected_cases": 40,
+  "frozen_exact_agreement_required": 1.0,
+  "historical_D6_replacement": false,
+  "observed_case_records": 40,
+  "run_state": "COMPLETE",
+  "schema_id": "GRANT1_PE12_B_LIVE_SUMMARY_V1",
+  "semantic_mismatch_case_ids": [],
+  "semantic_mismatch_count": 0,
+  "unresolved_case_ids": [],
+  "unresolved_count": 0,
+  "verdict": "PASS"
+}

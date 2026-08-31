@@ -1,0 +1,155 @@
+{
+  "schema_id": "GRANT1_PE11_D7_MAPPING_PROTOCOL_LOCK_V1",
+  "status": "SEALED_BEFORE_EXTERNAL_OUTCOME_COMPARISON",
+  "design_lock": {
+    "path": "Papers/GRANT1/5_Experiments_Simulations/phase_E/00_design_lock/DESIGN_LOCK.md",
+    "sha256": "212c5c11428dba3fb8f52ffa36d308a3abb80da4e46979d789fdd4ce9f169c50"
+  },
+  "post_d6_decision": {
+    "path": "Papers/GRANT1/5_Experiments_Simulations/phase_E/04_results_pe11/PE11_POST_D6_DECISION.json",
+    "sha256": "9b79d53a5580041094745d48f4f76c7d0fb4e4bff7b355c695f397054d01fce8",
+    "required_state": "C3_STRONG_FORM_FAILED_AND_C4_BLOCKED_PENDING_D7"
+  },
+  "scientific_authority": "DETERMINISTIC_RULES_NO_AI_OUTCOME_JUDGE",
+  "external_gate": {
+    "minimum_compatible_instances": 30,
+    "minimum_independent_external_task_templates": 2,
+    "report_all_attempted_mappings": true,
+    "mapping_rules_fixed_before_outcome_comparison": true,
+    "no_post_outcome_compatibility_relaxation": true,
+    "no_incompatible_task_coercion": true
+  },
+  "source_pins": {
+    "NetAgentBench": {
+      "repository": "https://github.com/twabi/NetAgentBench.git",
+      "commit": "015ba50683f6d583f4e1fe269f98d8786deca6a5",
+      "license": "Apache-2.0",
+      "license_sha256": "993e402388d7b1e350a81f8a0f6bb9e419db937309e8462fd592e81c0a9bb61e",
+      "bgp_generator_sha256": "883680f842faf633cad8681cda041ec024b54e0eaecbc3ccccf3f4992164d30e",
+      "ospf_generator_sha256": "c0a37d365e96ede7642d9ae27f578a2ebec1513e127304e104798de063866c5f",
+      "candidate_universe_rule": "Generate the pinned FRR BGP and OSPF task descriptors using the repository generators; inspect task definitions only, not benchmark/model result reports."
+    },
+    "Cornetto": {
+      "repository": "https://github.com/nsg-ethz/cornetto.git",
+      "commit": "21641495fb6485c1d6d61d44597a58d87ed29de2",
+      "license": "MIT",
+      "license_sha256": "0c59358f8078e9a39d4459e460f52d721661c0739ba382201dea3b0178bfb2e6",
+      "dataset_repository": "https://huggingface.co/datasets/iprotogeros/cornetto-benchmark",
+      "dataset_commit": "cdf3d68ecc47b4afe63e6b3ca8f5c07821c191bd",
+      "dataset_license": "MIT",
+      "dataset_readme_sha256": "c9a06c49a039ba7e1d8976ecea712096d57ebc90e2878df51414f03a587ff952",
+      "candidate_universe_rule": "Inspect all public scenario directories using file presence, topology, specifications, and static initial/final configuration text only. Do not use damage metrics, model outputs, published repair scores, or scenario outcome logs for compatibility decisions."
+    },
+    "NetConfArena": {
+      "repository": "https://github.com/liujona/NetConfArena.git",
+      "commit": "7f99e17a641f9e598dd0073d776637f361b5cdd5",
+      "license": "Apache-2.0",
+      "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "all_tasks_sha256": "1dde1e93cd788d64039851a45937d048c4c656b0cf6ded3340447eb97f5c66f6",
+      "taxonomy_sha256": "b5b9f48b4a39742f6299b93800212e409534c3dc13a46ac911ba0a1069d143cc",
+      "candidate_universe_rule": "Inspect all 96 upstream task templates and their startup configs, ground-truth command sets, topology, goals, and test definitions. Do not inspect agent/model result files for mapping decisions."
+    }
+  },
+  "proofcarry_frozen_domain": {
+    "protocols": [
+      "BGP",
+      "OSPF"
+    ],
+    "object_type": "route_advertisement",
+    "operations": [
+      "add",
+      "remove"
+    ],
+    "protected_object": "exact IP prefix",
+    "baseline_owner_requirement": "at_least_one_owner_per_protected_prefix",
+    "target_owner_requirement": "at_least_one_owner_per_protected_prefix",
+    "forward_requirement": "all protected prefixes remain fully visible at every nonterminal checkpoint",
+    "terminal_requirement": "exact target owners with full route visibility",
+    "recovery_requirement": "after every modeled cut, a fixed contingency plan restores exact baseline owners while preserving route visibility",
+    "control_plane_scope": "pre-existing stable BGP or OSPF topology; the transaction itself may not create or repair neighbor sessions, areas, interfaces, route policy, redistribution, MPLS, overlays, ACLs, or other unsupported objects"
+  },
+  "compatibility_rules_in_order": [
+    {
+      "rule_id": "D7C01_PROTOCOL",
+      "requirement": "The external task is single-protocol BGP or single-protocol OSPF for the mapped objective; mixed-protocol objectives are incompatible."
+    },
+    {
+      "rule_id": "D7C02_BASELINE_AND_TARGET_ARTIFACTS",
+      "requirement": "The public external artifacts provide an explicit baseline configuration/state and an explicit target/ground-truth configuration or invertible change specification. Missing baseline or missing target is incompatible; baseline or target may not be inferred from benchmark outcome scores."
+    },
+    {
+      "rule_id": "D7C03_ROUTE_ADVERTISEMENT_ONLY_DELTA",
+      "requirement": "After removing configuration-mode/context syntax only, every semantically required change for the mapped objective is an exact-prefix route-advertisement add/remove. If success also requires neighbor/session setup, area/interface activation, path attributes, filtering, aggregation, redistribution, static routing, ACL/firewall, MPLS, tunnels, or other configuration objects, the task is incompatible."
+    },
+    {
+      "rule_id": "D7C04_NONEMPTY_OWNER_STATES",
+      "requirement": "Every protected exact prefix has at least one advertiser/owner in both baseline and target states, matching the frozen method schema. Creation from zero owners or deletion to zero owners is incompatible."
+    },
+    {
+      "rule_id": "D7C05_REAL_OWNER_CHANGE",
+      "requirement": "At least one protected prefix changes owner set between baseline and target. Pure adjacency establishment, path selection tuning, policy changes, or no-op ownership are incompatible."
+    },
+    {
+      "rule_id": "D7C06_FIXED_REVERSIBLE_TRANSACTION",
+      "requirement": "A deterministic forward plan and a single fixed contingency plan can be derived solely from the external baseline/target owner delta: additions before removals, prefixes and devices sorted lexicographically; contingency is the exact inverse back to baseline, also additions before removals. No hand-authored per-case repair is allowed."
+    },
+    {
+      "rule_id": "D7C07_EXTERNAL_ORACLE_ALIGNMENT",
+      "requirement": "The external task supplies route/reachability/specification evidence that can independently check the mapped protected prefixes or final routing objective. Tasks whose oracle checks only syntax, adjacency, or unrelated behavior are incompatible."
+    },
+    {
+      "rule_id": "D7C08_EXECUTABILITY",
+      "requirement": "Required configs/topology/specifications are locally readable and can be deterministically reduced to the ProofCarry semantic evidence interface without proprietary credentials or unavailable hidden artifacts."
+    }
+  ],
+  "deterministic_plan_adapter": {
+    "protected_prefix_order": "lexicographic",
+    "device_order": "lexicographic",
+    "forward_phase_1": "for each target owner absent from baseline, add route advertisement",
+    "forward_phase_2": "for each baseline owner absent from target, remove route advertisement",
+    "contingency_phase_1": "for each baseline owner absent from target, add route advertisement",
+    "contingency_phase_2": "for each target owner absent from baseline, remove route advertisement",
+    "dependency_rule": "a remove for a prefix depends on all forward additions for that prefix; a contingency remove depends on all contingency additions for that prefix",
+    "authorization_rule": "allow exactly the changed devices, route_advertisement, add/remove, and the mapped protected prefixes"
+  },
+  "parameterized_instance_policy": {
+    "per_compatible_template_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "selection_depends_on_outcome": false,
+    "all_compatible_templates_attempted": true,
+    "stop_before_outcome_execution_if_external_gate_cannot_reach_30_instances_and_2_templates": true
+  },
+  "attempt_reporting": {
+    "record_each_source_unit": true,
+    "record_first_failed_rule": true,
+    "record_all_applicable_failed_rules": true,
+    "record_missing_artifact_paths": true,
+    "retain_incompatible_attempts": true
+  },
+  "outcome_blindness": {
+    "prohibited_for_compatibility_decision": [
+      "published model success rates",
+      "benchmark leaderboards",
+      "agent result directories",
+      "Cornetto damage metrics and forwarding-difference outcome magnitudes",
+      "any ProofCarry result on the candidate external task"
+    ],
+    "prelock_structural_exposure_note": "During source reconnaissance, one Cornetto example scenario_summary was opened to understand public artifact structure. Compatibility classification is not permitted to read scenario_summary or any damage/result fields, and no mapping decision is based on those fields."
+  },
+  "claim_rule": "If either the >=30 compatible-instance gate or >=2 independent-template gate fails, D7 external-transfer evidence is BLOCKED and C4 remains prohibited. The rules may not be relaxed after seeing the compatibility count or outcomes."
+}

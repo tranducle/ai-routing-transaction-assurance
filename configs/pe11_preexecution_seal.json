@@ -1,0 +1,386 @@
+{
+  "confirmatory_layer_b_generation_executed": false,
+  "d0_verdict": "PASS",
+  "file_count": 73,
+  "files": [
+    {
+      "bytes": 8438,
+      "path": "00_design_lock/ANTI_TAUTOLOGY_AND_BASELINE_FAIRNESS_AUDIT_PE8.md",
+      "sha256": "fe5d43d8a7054bfb1fce808b72dac961331fe4307b4a236758ed3c53a6dc33fe"
+    },
+    {
+      "bytes": 1229,
+      "path": "00_design_lock/D0_GATE_REPAIR_LOG_V8.md",
+      "sha256": "cecae27971459d5a0b0c22f1fe50433da85be485c2fd457517bbdae93a61fec8"
+    },
+    {
+      "bytes": 3631,
+      "path": "00_design_lock/D0_PRESEAL_GATE_V8.json",
+      "sha256": "f40a03301ea4310445506d75c88b73db964967ad1f6a0f1f69fffc45d5648c7c"
+    },
+    {
+      "bytes": 848,
+      "path": "00_design_lock/D0_PRESEAL_GATE_V8.md",
+      "sha256": "fc283c29b2868bee3993ca9fd2393366c4c0ded56c0fc74ad10ebdfaa222f609"
+    },
+    {
+      "bytes": 3363,
+      "path": "00_design_lock/D0_PRESEAL_GATE_V8_ATTEMPT1_FAILURE.json",
+      "sha256": "c754871bbe3b14b27c553870d66d616e8d6cf12c3104af951c837b31a8a8c626"
+    },
+    {
+      "bytes": 797,
+      "path": "00_design_lock/D0_PRESEAL_GATE_V8_ATTEMPT1_FAILURE.md",
+      "sha256": "80e5f77f288e3efcba1e8e94200de9fc959acf026ed91bdbc6073e3c1e18bbbb"
+    },
+    {
+      "bytes": 1069914,
+      "path": "00_design_lock/GENERATOR_INPUT_MANIFEST_V8.json",
+      "sha256": "6e1526e8cb60071d88d8a81d18ba57c7b9c83fadd8437348a664d30e319703be"
+    },
+    {
+      "bytes": 2117,
+      "path": "00_design_lock/MODEL_CATALOG_SNAPSHOT_V8.json",
+      "sha256": "b7634746589725ef0928a7516a014206d8d72af2df3b105ae97d63989cdb2bfc"
+    },
+    {
+      "bytes": 2593,
+      "path": "00_design_lock/MODEL_PROTOCOL_V8.json",
+      "sha256": "3d6a8e82f40f8398f3a9a713d86bb1c74451d4a8b073606919ad9b0f38aedfdc"
+    },
+    {
+      "bytes": 150969,
+      "path": "00_design_lock/NATURAL_PROPOSAL_ASSIGNMENT_V8.json",
+      "sha256": "0992cbde09c538a64368df7c709471ba4739bcbe03b308dda6198d7bb1f45c95"
+    },
+    {
+      "bytes": 4113,
+      "path": "00_design_lock/PE8_EXECUTION_ABORT_AND_PE9_TRIGGER.md",
+      "sha256": "0394bcce4133b14898e7501659490d7f7650270537aee1be0b2e7cd211795573"
+    },
+    {
+      "bytes": 1548,
+      "path": "00_design_lock/PE9_D0_PRESEAL_GATE.json",
+      "sha256": "fcb70166eb24b50cfe9908e07bdfa930d5bf8c818181a91122ec5da1afd9eca2"
+    },
+    {
+      "bytes": 8884,
+      "path": "00_design_lock/PE9_DESIGN_LOCK.md",
+      "sha256": "15c7e5427491b3769ffb0f9ef49e725cace0d0cabf00c32ef3bb59db4847ffec"
+    },
+    {
+      "bytes": 2230,
+      "path": "00_design_lock/PE9_SCIE_Q1_COVERAGE_GATE.md",
+      "sha256": "98c6dfb9cf3d15b6313fef63e4b619d4dddd9d32bd91691717bc0b5d8bc37385"
+    },
+    {
+      "bytes": 1494,
+      "path": "00_design_lock/PRE_CHANGE_METHODOLOGY_AUDIT_PE8.json",
+      "sha256": "1976e39007c97ce40e90b667de315994bd1a3ab32b1e28299f61b0a5dbe8a9e9"
+    },
+    {
+      "bytes": 8364,
+      "path": "00_design_lock/PRE_CHANGE_METHODOLOGY_AUDIT_PE8.md",
+      "sha256": "608ec0635726a4c77b008ab7dcb8fbed1ce8b60839ee391627fbd39fbda491ce"
+    },
+    {
+      "bytes": 3583,
+      "path": "00_design_lock/SEMANTIC_EVIDENCE_CONTRACT_V8.json",
+      "sha256": "101d52950aa0d386fef2c00e2073d2b463592071a61533438d752f2220dbc7fe"
+    },
+    {
+      "bytes": 405,
+      "path": "00_design_lock/calibration_v8_round4/CALIBRATION_GATE_V8_ROUND4.json",
+      "sha256": "ac11f30b20f57d2319b75ed84904d5392c3b46495d2fa4475617dc45fb606794"
+    },
+    {
+      "bytes": 7788,
+      "path": "00_design_lock/calibration_v8_round4/DeepSeek-V4-Pro-0813.json",
+      "sha256": "ced05f59fc3b26ee755774980f200024e6dccd0099c61d961b158c08d6eb388c"
+    },
+    {
+      "bytes": 7578,
+      "path": "00_design_lock/calibration_v8_round4/GLM-5.3-Flash.json",
+      "sha256": "c086412a63902e9eae445c15d18634dc001af68ef990c3fa832f3b0b4d3e635f"
+    },
+    {
+      "bytes": 7741,
+      "path": "00_design_lock/calibration_v8_round4/anthropic__claude-sonnet-5.json",
+      "sha256": "50a1e58a8d000f0c5b136b2ac3cd6dfcca0f7bb9f72df01d175b35e2ae50b62a"
+    },
+    {
+      "bytes": 8299,
+      "path": "00_design_lock/calibration_v8_round4/openai__gpt-5.6-sol-pro.json",
+      "sha256": "0d40ca0441124df362efccd40fa2b481461ad15c65bc818f72287362721e9385"
+    },
+    {
+      "bytes": 3326,
+      "path": "00_design_lock/design_lock.json",
+      "sha256": "2b915914316daf3e2a7d1b225b5994d45421c1267b878bb291818702d094a7ed"
+    },
+    {
+      "bytes": 1804,
+      "path": "01_primary_v8/blind_view_v8.py",
+      "sha256": "5e0a2bc86b224dca5708595659e4c1622164d5f4ba24b54062fb9f664bc6afab"
+    },
+    {
+      "bytes": 7470,
+      "path": "01_primary_v8/natural_model_api_v8.py",
+      "sha256": "bc86f22e630cc87a75747b46d02186d2e24c9b8740b43bc50596942c71a0a792"
+    },
+    {
+      "bytes": 9205,
+      "path": "01_primary_v8/natural_proposal_protocol_v8.py",
+      "sha256": "2d8dacec69a126d5b4c049fdb90ac085129863494e4907dd725abeceb2c4136b"
+    },
+    {
+      "bytes": 3662,
+      "path": "01_primary_v8/network_config_v8.py",
+      "sha256": "59d3933b680919a48f04f66f5952e44050b75b735c63dca9a08d22c3801faddd"
+    },
+    {
+      "bytes": 16615,
+      "path": "01_primary_v8/primary_design_v8.py",
+      "sha256": "7a6be366567013d2e65e82a44e29ecb3fb64dc70f1c3cec8e06dc105481381de"
+    },
+    {
+      "bytes": 8781,
+      "path": "01_primary_v8/primary_generator_v8.py",
+      "sha256": "49252e373fa8ca090c3d96e29755de3119b629add7b352add141de09b028ecb0"
+    },
+    {
+      "bytes": 5925,
+      "path": "01_primary_v9/natural_candidate_adapter_v9.py",
+      "sha256": "6a3e080658e5cbbd1b4c5828f958cdb8ba59b84e1fa52e987b0c13232cdf946c"
+    },
+    {
+      "bytes": 15045,
+      "path": "02_scoring/method_verifier_v8.py",
+      "sha256": "9122e208f41af0651b3ee41a598b862ac1ea92c174b8f60cf71260656abf4d1d"
+    },
+    {
+      "bytes": 1142,
+      "path": "02_scoring/primary_scorer_v8.py",
+      "sha256": "280fefbd4df185d30a72b71d66e142dee358751c8837f538955ac05f4dc76c56"
+    },
+    {
+      "bytes": 6435,
+      "path": "02_scoring_v9/layer_b_statistics_v9.py",
+      "sha256": "8680efe0b6bf994124bdb921c61e3c4b49ae0202d78bb270f2fac0c83f39779a"
+    },
+    {
+      "bytes": 2713,
+      "path": "03_semantic_replay/batfish_executor_v8.py",
+      "sha256": "f1448ed08c88665fe8934caf306571c06207d15df50ffb17c9c3181f0cbe6d19"
+    },
+    {
+      "bytes": 14964,
+      "path": "03_semantic_replay/deterministic_oracle_a_v8.py",
+      "sha256": "2caf29cd0f8e36e88c49fc54b63382e6ab93fa94b3db628e62376194d3d3a098"
+    },
+    {
+      "bytes": 12160,
+      "path": "03_semantic_replay/deterministic_oracle_b_v8.py",
+      "sha256": "4dc07d1e70b517596be5d9171f4353010653283d8023b309b4a2285a9034e087"
+    },
+    {
+      "bytes": 7418,
+      "path": "03_semantic_replay/deterministic_replay_audit_v8.py",
+      "sha256": "fbcc5131c05b34622d66b8571215a7709fdedecc5636adafdcba763740bdae78"
+    },
+    {
+      "bytes": 2490,
+      "path": "03_semantic_replay/reference_consensus_v8.py",
+      "sha256": "f9a1eda671f53f84c530aa54ce08cfcf2bb70692b8b90590cb7e10112b16ac6c"
+    },
+    {
+      "bytes": 1461,
+      "path": "03_semantic_replay/reference_pipeline_v8.py",
+      "sha256": "c1a9c2f4e2e9fe0aa6741eebe7b742837b071713219a3268c923b775e003f584"
+    },
+    {
+      "bytes": 6857,
+      "path": "03_semantic_replay/replay_adapter_v8.py",
+      "sha256": "8efee8c71da3e6401cccb72d1ce67349195a9565849600eee8d2c3ad098eb281"
+    },
+    {
+      "bytes": 2994,
+      "path": "03_semantic_replay/semantic_evidence_v8.py",
+      "sha256": "de01117fcf4c9b0df044464f3325ca283f03fcb110999194617c23926a00522e"
+    },
+    {
+      "bytes": 3895,
+      "path": "tests/test_layer_b_statistics_v9.py",
+      "sha256": "03a5aac799ab12652a9bb5bd4b77e400c05e20be2afd17ab6e0ad8451e5e531a"
+    },
+    {
+      "bytes": 4775,
+      "path": "tests/test_method_verifier_v8.py",
+      "sha256": "aa6f842bda3eac6a2dd226562651941b47ac506ad22c0ea72879fe65dd442ada"
+    },
+    {
+      "bytes": 765,
+      "path": "tests/test_model_api_transport_v8.py",
+      "sha256": "9d49a796bee9508a0cee60c34c6a2f9ae66879ac978f81ee0dbaa769be9dcfcf"
+    },
+    {
+      "bytes": 4683,
+      "path": "tests/test_natural_candidate_adapter_v9.py",
+      "sha256": "b6639fce1c9ab39f4b1d8f60f98ae11c723248cd136abffcff07d4ae0d0ed7c1"
+    },
+    {
+      "bytes": 4361,
+      "path": "tests/test_natural_proposal_protocol_v8.py",
+      "sha256": "80ac17849508b33d8d676e44eef2b321ad03204c0888608a7c824fc08eed37d9"
+    },
+    {
+      "bytes": 2376,
+      "path": "tests/test_primary_v8_design.py",
+      "sha256": "454bd8dc7bfa019a8f0d1b22b5844bc29dfe8ed9ab8137baf9ca7687cde12f0d"
+    },
+    {
+      "bytes": 2179,
+      "path": "tests/test_primary_v8_generator.py",
+      "sha256": "c8892ca5f998a2369d815a96421d0c3db5aa6bcf47458800518084525d196ad8"
+    },
+    {
+      "bytes": 7452,
+      "path": "tests/test_reference_oracles_v8.py",
+      "sha256": "43a6f4c758bf75193bed7e0e49adb72c94ef02a0c53d13bf365041afea21bf58"
+    },
+    {
+      "bytes": 5378,
+      "path": "tests/test_replay_v8.py",
+      "sha256": "ca9091a76f8fe8ba065a08920dbfdd05a537a46421b485a4f1e7af8a6296cf2f"
+    },
+    {
+      "bytes": 4391,
+      "path": "tests/test_v8_separation.py",
+      "sha256": "55abc7c4b3e06e45cd34df209bb9da154e3ad3b26adfa40aee4234b5ac4a1d33"
+    },
+    {
+      "bytes": 2246,
+      "path": "00_design_lock/PE9_D2_PREFLIGHT_ABORT_AND_PE10_TRIGGER.md",
+      "sha256": "74785b3de3fdaf981e7492f7a8ace76ae5700bcbf51a957de1f04b32650db70a"
+    },
+    {
+      "bytes": 3862,
+      "path": "00_design_lock/PE10_DESIGN_LOCK.md",
+      "sha256": "911a50b1241d681d4a2b4b265cb17d88aa440a7f1d6c7d9b58794063d84a32c7"
+    },
+    {
+      "bytes": 2538,
+      "path": "00_design_lock/PE10_EMPIRICAL_STANDARDS_D2_PREFLIGHT.md",
+      "sha256": "4a69c9662a5ccefbbb7bf204fa905554773bb343edbaf75e61282827b9c820a2"
+    },
+    {
+      "bytes": 159817,
+      "path": "00_design_lock/NATURAL_PROPOSAL_ASSIGNMENT_V10.json",
+      "sha256": "9f8d1e9807c9b6822595813742b453213ce938de22e129c52a2ef9597463379a"
+    },
+    {
+      "bytes": 1664,
+      "path": "00_design_lock/PE10_D0_PRESEAL_GATE.json",
+      "sha256": "8ec0331d883ce27abba256d6ebdd388cfea8abca2bb8015e893ab3f356c2f0c5"
+    },
+    {
+      "bytes": 11394,
+      "path": "01_primary_v10/d2_execution_protocol_v10.py",
+      "sha256": "75bd7ac1be59ddf4b9eddf3ffe8db6872bf38a1c782e5d83de11e48ea19a4819"
+    },
+    {
+      "bytes": 2611,
+      "path": "tests/test_pe10_d2_protocol.py",
+      "sha256": "9ba1782e684915bc7673cddd7728f4216f608cdb44eff5b4761e55ddc6739ae4"
+    },
+    {
+      "bytes": 388,
+      "path": "04_results_pe9/D1_controlled_conformance/D1_REFERENCE_SUMMARY_PE9.json",
+      "sha256": "3172a1da52f9398c3b045208025fe5a615c44c8fcfb0760643e4acb03e59a33b"
+    },
+    {
+      "bytes": 242,
+      "path": "04_results_pe9/D1_controlled_conformance/D1_CORPUS_EMISSION_PE9.json",
+      "sha256": "cc9e6ba51f95a46636a8f8dd710bb3597576dd3b47e6f666e4947966f01947ef"
+    },
+    {
+      "bytes": 1491,
+      "path": "04_results_pe9/D1_controlled_conformance/PE9_D1_TO_D2_GATE.json",
+      "sha256": "3bbbdec91e94dc55d62573fe870ba7a26408d8c498ba4df8517fe9d93fdbfd48"
+    },
+    {
+      "bytes": 17398,
+      "path": "04_results_pe10/D5_frozen_statistics/D5_FROZEN_ANALYSIS_PE10.json",
+      "sha256": "b66bcdc096c74493c2e8dc83b7ce6d79f2347ddd409a766abfc63b5a0dedff5e"
+    },
+    {
+      "bytes": 16745,
+      "path": "04_results_pe10/D5_transport_recovery_sensitivity/D5_TRANSPORT_RECOVERY_SENSITIVITY_PE10.json",
+      "sha256": "c7e17bb2aa5a324fcffc160276d0ff907d280fe7933706aba5f9fd28d445d217"
+    },
+    {
+      "bytes": 2418,
+      "path": "04_results_pe10/PE10_POST_D5_DECISION.json",
+      "sha256": "0a60fcc6adaafa4be0aa9aa92c17e0ae92e0a8a1511bd1728809852b67e57403"
+    },
+    {
+      "bytes": 181209,
+      "path": "00_design_lock/NATURAL_PROPOSAL_ASSIGNMENT_V11.json",
+      "sha256": "494ad2703383b955107a346a8d4a379f81bf0de668db6ac1e15c26104e9c05b4"
+    },
+    {
+      "bytes": 2391,
+      "path": "00_design_lock/PE11_TRANSPORT_RECOVERY_POLICY.json",
+      "sha256": "944e3a0605d8ccc2181ebedf40d76c6ed0da141c53478bf35deec5daff4ef5c1"
+    },
+    {
+      "bytes": 4739,
+      "path": "00_design_lock/PE11_DESIGN_LOCK.md",
+      "sha256": "0b7435884029ec2c6d045639004752946ed5f0a5f8b05e714815a8ae87aa85b6"
+    },
+    {
+      "bytes": 2063,
+      "path": "00_design_lock/PE11_EMPIRICAL_STANDARDS_D2_PREFLIGHT.md",
+      "sha256": "207739ee9b0c2e7743c017396b6fe2d3676ea78b93689fede35109d9f2a71b80"
+    },
+    {
+      "bytes": 1402,
+      "path": "00_design_lock/PE11_SCIE_Q1_COVERAGE_GATE.json",
+      "sha256": "e3259402600b01a8be21c11690b5bd45b949f18f301f115da9bf9d24c6b61693"
+    },
+    {
+      "bytes": 1773,
+      "path": "00_design_lock/PE11_SCIE_Q1_COVERAGE_GATE.md",
+      "sha256": "7925383b6de66ff7e5df4f31b5ab3e0178d8c73a7d42bb9223525ec2f8da24cc"
+    },
+    {
+      "bytes": 1848,
+      "path": "00_design_lock/PE11_D0_PRESEAL_GATE.json",
+      "sha256": "fd1e831fe5b1b7c19c0ff02ae50f5b8f1da1fa7f5c9105b69c6e4bffabffe7ca"
+    },
+    {
+      "bytes": 15226,
+      "path": "01_primary_v11/d2_execution_protocol_v11.py",
+      "sha256": "d2c8ef4f1b7d50d2398b1e7dbab11de8bf135e329ab888b9fc45df6bc503b680"
+    },
+    {
+      "bytes": 4790,
+      "path": "tests/test_pe11_d2_protocol.py",
+      "sha256": "0af4744f9b1c1af1cd1a3e0a115919a81d4f8cf61cbfb3a68a3b9e7c0ef20938"
+    }
+  ],
+  "namespace": "PE11",
+  "replication_role": "INDEPENDENT_TEMPORAL_CONFIRMATORY_REPLICATION_OF_PE10_FIXED_WORKLOAD",
+  "rules": [
+    "PE11 is a new confirmatory namespace and never overwrites PE10.",
+    "D2 must produce fresh API/model calls for all 256 frozen PE11 model conditions.",
+    "Retryable transport/provider/model-identity execution failures remain pending and MUST be rerun; they are not scientific outcomes.",
+    "Nonretryable authentication/configuration failures block for repair and the exact condition must be rerun afterward.",
+    "An exact-model HTTP-200 output is recorded once and is never rerun for JSON/schema/semantic/safety/downstream quality.",
+    "D2->D3 requires 256/256 durable exact-model HTTP-200 records and zero unresolved execution-integrity failures.",
+    "No scientific task/prompt/model/generation/adapter/reference/scorer/statistics/threshold change after seal.",
+    "No AI model labels, scores, adjudicates a gate, or authorizes a claim."
+  ],
+  "seal_version": 1,
+  "sealed_at_utc": "2026-08-28T12:16:23.504465+00:00"
+}

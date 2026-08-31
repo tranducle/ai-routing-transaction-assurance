@@ -1,0 +1,49 @@
+{
+  "calibration": {
+    "confirmatory_task_exposure": false,
+    "development_task_id": "PE8-DEVELOPMENT-CALIBRATION-ONLY",
+    "http200_exact_model_valid_json_count": 4,
+    "model_count": 4,
+    "openference_calibration_call_count": 2,
+    "openference_calibration_latencies_sec": [
+      98.7732,
+      52.7562
+    ],
+    "openference_confirmatory_call_count": 512,
+    "openference_response_cost_metadata": "NOT_REPORTED_BY_PROVIDER_RESPONSE",
+    "openrouter_calibration_cost_usd": 0.08258776,
+    "openrouter_prelaunch_budget_guard_usd": 35.0,
+    "openrouter_projected_confirmatory_cost_usd": 21.14246656,
+    "openrouter_projection_headroom_usd": 13.857533440000001,
+    "openrouter_projection_method": "one development call per OpenRouter model multiplied by 256 confirmatory calls per OpenRouter model; prelaunch resource guard only"
+  },
+  "checks": {
+    "assignment_exact_1024": true,
+    "base_calibration_gate_pass": true,
+    "calibration_confirmatory_task_exposure_false": true,
+    "calibration_development_task_id_exact": true,
+    "calibration_http200_exact_model_valid_json_4_of_4": true,
+    "calibration_semantic_quality_not_scored": true,
+    "confirmatory_output_absent": true,
+    "four_calibration_models": true,
+    "openference_api_key_present": true,
+    "openference_base_url_present": true,
+    "openference_conditions_512": true,
+    "openrouter_conditions_512": true,
+    "openrouter_key_slots_0_and_2_available": true,
+    "openrouter_projection_below_prelaunch_guard": true
+  },
+  "execution_policy": {
+    "http200_invalid_json_recorded_as_observed_outcome": true,
+    "no_midstudy_cost_stopping_rule": true,
+    "reason": "Avoid outcome/response-length-dependent truncation after official launch.",
+    "semantic_retry": false,
+    "total_assigned_calls": 1024,
+    "transport_or_model_id_failure_recoverable_under_same_seal": true,
+    "workers": 8
+  },
+  "schema_id": "GRANT1_PE13_PREEXECUTION_ENVIRONMENT_AND_COST_V1",
+  "scientific_authority": "PREOUTCOME_RESOURCE_AND_EXECUTION_INTEGRITY_GATE",
+  "secret_values_persisted": false,
+  "verdict": "PASS"
+}

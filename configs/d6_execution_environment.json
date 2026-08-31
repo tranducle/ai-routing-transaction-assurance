@@ -1,0 +1,28 @@
+{
+  "schema_id": "GRANT1_PE11_D6_EXECUTION_ENVIRONMENT_V1",
+  "frozen_before_first_d6_live_outcome": true,
+  "host": {
+    "arch": "arm64",
+    "os": "macOS 26.6.2",
+    "build": "25G83"
+  },
+  "container_runtime": {
+    "colima_version": "0.10.1",
+    "colima_commit": "ed905203afdbc6fd4eae6cc301918099ff31e86e",
+    "runtime": "docker",
+    "vm_arch": "aarch64",
+    "docker_client": "29.4.3",
+    "docker_server": "29.2.1",
+    "containerlab_version": "0.79.0",
+    "containerlab_commit": "5ae50094a",
+    "containerlab_build_date": "2026-08-21T12:00:52Z"
+  },
+  "frr": {
+    "version": "10.7.0_git",
+    "architecture": "arm64",
+    "image": "quay.io/frrouting/frr@sha256:65e5967b922572c0565d968388fb06af69d7e9b3b3eea40ad7e3810687667f68",
+    "local_repo_digest_verified": true
+  },
+  "inheritance_note": "Platform and immutable FRR digest agree with the previously pinned Phase-E environment. This D6 record re-verifies the live platform immediately before the D6 pre-execution seal; it does not alter Layer-B scientific rules.",
+  "claim_boundary": "Environment-specific FRR/Containerlab execution grounding only; no vendor-general, physical-device, performance/scalability, or external-generality claim is licensed by this environment pin."
+}

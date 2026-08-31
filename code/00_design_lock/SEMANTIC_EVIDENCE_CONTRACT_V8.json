@@ -1,0 +1,83 @@
+{
+  "authorization_scope": "device/object_type/operation/object_id against the declared authorization contract only",
+  "availability_rule": "a protected service is available at a modeled checkpoint iff owners is nonempty and route_visibility equals the complete router set",
+  "candidate_parser_failure_with_valid_provenance": "UNSAFE_SCHEMA_FAILURE",
+  "canonical_json": {
+    "ensure_ascii": false,
+    "separators": [
+      ",",
+      ":"
+    ],
+    "sort_keys": true
+  },
+  "expected_constants": {
+    "batfish_image_digest": "batfish/allinone@sha256:09817554db90e2f2674b72562c2d659427094187de0a3dfc23534ab58bf26207",
+    "contract_version": 8,
+    "pybatfish_version": "2025.07.07.2423",
+    "replay_executor_contract": "GRANT1_PE8_EXECUTABLE_BATFISH_V1",
+    "replay_pipeline_id": "BATFISH_PRIMARY_PE8",
+    "schema_id": "GRANT1_PE8_BATFISH_ROUTE_VISIBILITY_EVIDENCE_V1"
+  },
+  "forward_scope": "forward_states contains exactly one post-step state per forward step; Forward safety checks forward_states[:-1] only",
+  "hash_algorithm": "sha256",
+  "method_outputs_allowed_in_evidence_provenance": false,
+  "method_outputs_allowed_in_semantic_payload": false,
+  "model_mediated_reference_allowed": false,
+  "one_unverifiable_case_blocks_primary_efficacy": true,
+  "provenance_failure": "UNVERIFIABLE",
+  "raw_batfish_binding_rule": "batfish_executor_v8 produces canonical raw rows; deterministic_replay_audit_v8 recomputes config/query/raw/payload bindings from sealed PE8 inputs before deterministic Oracle A can be evaluated",
+  "recovery_scope": "one recovery run per forward interruption cut; recovery path checks every post-contingency-step state; recovery terminal checks exact baseline owners plus complete route visibility",
+  "reference_authority": "DETERMINISTIC_DUAL_ORACLE_ONLY",
+  "reference_oracle_must_recompute": [
+    "blind_case_sha256",
+    "semantic_payload_sha256"
+  ],
+  "reference_oracle_must_require_64hex_bindings": [
+    "baseline_config_bundle_sha256",
+    "candidate_config_bundle_sha256",
+    "query_plan_sha256",
+    "raw_batfish_output_sha256"
+  ],
+  "replay_executor_contract": "GRANT1_PE8_EXECUTABLE_BATFISH_V1",
+  "replay_pipeline_id": "BATFISH_PRIMARY_PE8",
+  "required_provenance_fields": [
+    "contract_version",
+    "schema_id",
+    "case_id",
+    "blind_case_sha256",
+    "semantic_payload_sha256",
+    "baseline_config_bundle_sha256",
+    "candidate_config_bundle_sha256",
+    "query_plan_sha256",
+    "raw_batfish_output_sha256",
+    "replay_pipeline_id",
+    "replay_executor_contract",
+    "batfish_image_digest",
+    "pybatfish_version"
+  ],
+  "required_semantic_fields": [
+    "evidence_complete",
+    "parser_clean",
+    "parser_issues",
+    "forward_states",
+    "terminal_state",
+    "recovery_runs",
+    "evidence_provenance"
+  ],
+  "schema_classification": "parameters.prefix must equal object_id; mismatch is a schema failure, not an authorization failure",
+  "schema_id": "GRANT1_PE8_BATFISH_ROUTE_VISIBILITY_EVIDENCE_V1",
+  "semantic_payload_hash_fields": [
+    "evidence_complete",
+    "parser_clean",
+    "parser_issues",
+    "forward_states",
+    "terminal_state",
+    "recovery_runs"
+  ],
+  "state_schema": {
+    "owners": "exact protected-service keys -> unique router lists derived from connected route rows",
+    "route_visibility": "exact protected-service keys -> unique router lists derived from any Batfish route row for that prefix"
+  },
+  "terminal_scope": "terminal_state equals the final post-forward state and is evaluated separately for exact target owners plus complete route visibility",
+  "version": 8
+}

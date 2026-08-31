@@ -1,0 +1,5344 @@
+{
+  "claim_decision": {
+    "C1": "CONFIRMED_WITHIN_FROZEN_LAYER_B_SCOPE",
+    "C2": "PARTIAL_NOT_FORMALLY_CONFIRMED_RECOVERY_UNSAFE_N_24_LT_32",
+    "C3": "STRONG_FORM_FAILED_NARROWING_REQUIRED",
+    "C4": "BLOCKED_PENDING_D7"
+  },
+  "denominator_reconstruction": {
+    "pre_r3_r1": [
+      "PE11-N-2f2b8ec96a4168bf24af"
+    ],
+    "pre_r3_r2": [
+      "PE11-NM-abd777a61d1dbe21e88f"
+    ],
+    "r3_official_remaining_77": [
+      "PE11-N-9b960c8dd40884316849",
+      "PE11-N-dd00cf055d64a8473efe",
+      "PE11-NM-76fe9c46cdbc2d95d465",
+      "PE11-N-599ec60ee82ffc5f10e3",
+      "PE11-N-b1329b0a5a1536d5010a",
+      "PE11-N-49e0e3363cf388a693bf",
+      "PE11-N-1d2e36762a89b1bfe245",
+      "PE11-N-27b8e4640d6467043a92",
+      "PE11-N-99178b4927c69ecf2caa",
+      "PE11-N-e5832260c98091f29a33",
+      "PE11-N-3a3c520340e481f0ed7a",
+      "PE11-NM-c8205f6c313c57c9e3cc",
+      "PE11-NM-87f8904b8e92ad80c9ad",
+      "PE11-N-2f46f779abd386ec6c7a",
+      "PE11-N-e4cbe75590701d6e5591",
+      "PE11-NM-9dd0d1acce75d155392b",
+      "PE11-NM-e0d4b014cd3ed3588291",
+      "PE11-N-79459b7de1367600b734",
+      "PE11-N-ebd6ad75cbc4d1e89493",
+      "PE11-N-602348f286c84865726c",
+      "PE11-NM-2b90980a417fb9eabc51",
+      "PE11-N-02e03a6758c430a73245",
+      "PE11-NM-b487e419291ffde51f47",
+      "PE11-N-092a8a0be84dc5032f4d",
+      "PE11-NM-b2266c0c2d0c1473c637",
+      "PE11-NM-03678ae0502d543fd146",
+      "PE11-N-c9c7e211b164b1567ca0",
+      "PE11-NM-422092cd40c57dc61923",
+      "PE11-N-50e6264b7c3fc5fabe3d",
+      "PE11-NM-9417ad4b7d22e2f2d717",
+      "PE11-N-e505b6208be98df540f9",
+      "PE11-NM-9a83a0833989ddba1b9d",
+      "PE11-N-e3d3fd0b429c5adc7c89",
+      "PE11-N-c4cea566e757f720cb0c",
+      "PE11-NM-72596a2a05ffc73f7703",
+      "PE11-N-878d505d0e184ee0b7c5",
+      "PE11-N-da5fa1338876bf248a44",
+      "PE11-NM-4014f5aaf53968927174",
+      "PE11-NM-31d4f3663a90642b86f6",
+      "PE11-N-51f1fe5b9f5c56ca1a9d",
+      "PE11-N-5e7e4cd22f3454e00825",
+      "PE11-NM-1c846a671f2eb966206d",
+      "PE11-N-ae16744d50985b236e57",
+      "PE11-N-bbf467e71b18d23f2d76",
+      "PE11-NM-5d375e77202cb838cc14",
+      "PE11-N-6279637e6d3549494221",
+      "PE11-N-86b6088fa5145abf71f4",
+      "PE11-N-55b8bb7903577684c95a",
+      "PE11-NM-3a2b10bdc6ccb86959b3",
+      "PE11-N-e256852f11b9b45f2f33",
+      "PE11-N-ebf665aa2405d1c83679",
+      "PE11-N-02882c5e9a749dbe7872",
+      "PE11-N-965c99c5dffbc6018a84",
+      "PE11-N-b9061e7cce6177e8143d",
+      "PE11-N-07d00f09822f9abe0db4",
+      "PE11-N-8fb2fca757387119cc96",
+      "PE11-NM-eb427997e62c8789d31c",
+      "PE11-N-eaef141c74c6ff38f9cf",
+      "PE11-N-ed8094b524935391c964",
+      "PE11-N-efe191d336d97a11e823",
+      "PE11-N-d6af87ab4a313e4aa259",
+      "PE11-N-7439f83b5ba876d03e59",
+      "PE11-N-b4013899233b0a1f17f3",
+      "PE11-N-ab396846397a51f0fbce",
+      "PE11-NM-1983cbc5d4148a4f7b32",
+      "PE11-NM-139eff6a3e8dc99aa642",
+      "PE11-N-7cd7a7318f274e844b72",
+      "PE11-N-dbdee527c6028ed655ab",
+      "PE11-NM-8893cd4e522e7f5f0ab3",
+      "PE11-NM-d8eb7b1123d95115d716",
+      "PE11-NM-c791d5ed2b9baf6cb1bc",
+      "PE11-N-5a5fce721bb6e2f6f3b9",
+      "PE11-N-9362d783bd1ba47d65bc",
+      "PE11-NM-cd026dd6281d133fd7ab",
+      "PE11-N-7f4fc6e93c98c7ca16a6",
+      "PE11-N-df4be0ded83b7e21ad06",
+      "PE11-N-412e6be7c2dbfb65afe1"
+    ],
+    "r3_trigger": [
+      "PE11-N-18dc110107713e5582f4"
+    ],
+    "replacement_cases": [],
+    "set_equal_to_frozen_selection": true
+  },
+  "gate": {
+    "agreement_fraction": 0.975,
+    "agreement_percent": 97.5,
+    "agreements": 78,
+    "completed": 80,
+    "frozen_acceptance_fraction": 1.0,
+    "frozen_required_agreements": 80,
+    "mismatches": 2,
+    "selected": 80,
+    "strong_C3_exact_correspondence": "FAILED",
+    "unresolved_infrastructure_failures": 0,
+    "verdict": "FAIL_CLAIM_NARROWING_REQUIRED"
+  },
+  "historical_infrastructure_and_repair_provenance": [
+    {
+      "attempts": [
+        {
+          "attempt_index": 1,
+          "classification": "INFRASTRUCTURE_FAILURE",
+          "error": "InfrastructureFailure('control-plane quiescence timeout at baseline')"
+        },
+        {
+          "attempt_index": 2,
+          "classification": "INFRASTRUCTURE_FAILURE",
+          "error": "InfrastructureFailure('control-plane quiescence timeout at baseline')"
+        },
+        {
+          "attempt_index": 3,
+          "classification": "INFRASTRUCTURE_FAILURE",
+          "error": "InfrastructureFailure('control-plane quiescence timeout at baseline')"
+        }
+      ],
+      "case_id": "PE11-NM-abd777a61d1dbe21e88f",
+      "classification": "HISTORICAL_INFRASTRUCTURE_FAILURES_BEFORE_R2_REPAIR",
+      "counted_as_semantic_outcome": false,
+      "phase": "R1",
+      "replacement_or_deletion": false
+    },
+    {
+      "artifact": "04_results_pe11/D6_live_frr/remaining_r2_batch_001/D6_R2_BATCH_ABORT_BGP_HARNESS_DEFECT.json",
+      "artifact_sha256": "db09c41f5570e5763706e5e7b1f2f7c266bd5287036223bfad072cdbfe74c3d4",
+      "case_id": "PE11-N-18dc110107713e5582f4",
+      "classification": "HARNESS_CONFIGURATION_DEFECT_ABORT_NOT_SEMANTIC_RESULT",
+      "counted_as_semantic_outcome": false,
+      "phase": "R2",
+      "replacement_or_deletion": false
+    },
+    {
+      "attempts": [
+        {
+          "attempt_index": 1,
+          "classification": "INFRASTRUCTURE_FAILURE",
+          "error": "InfrastructureFailure(\"quiescence measurement failed at baseline: % Can't open configuration file /etc/frr/vtysh.conf due to 'No such file or directory'.\\nConfiguration file[/etc/frr/frr.conf] processing failure: 11\\nbgpd is not running\")"
+        },
+        {
+          "attempt_index": 2,
+          "classification": "COMPLETED",
+          "result": {
+            "agreement": true,
+            "case_id": "PE11-N-7f4fc6e93c98c7ca16a6",
+            "infra_repair": "D6_R3",
+            "infrastructure_failure": false,
+            "measured_semantic_obligations": {
+              "ForwardAvailabilityReferenceOK": true,
+              "RecoveryPathReferenceOK": true,
+              "RecoveryReferenceOK": true,
+              "RecoveryTerminalReferenceOK": true,
+              "TerminalObjectiveReferenceOK": true
+            },
+            "reference_semantic_obligations": {
+              "ForwardAvailabilityReferenceOK": true,
+              "RecoveryPathReferenceOK": true,
+              "RecoveryReferenceOK": true,
+              "RecoveryTerminalReferenceOK": true,
+              "TerminalObjectiveReferenceOK": true
+            },
+            "semantic_comparison": {
+              "agreement": true,
+              "compared_fields": [
+                "ForwardAvailabilityReferenceOK",
+                "TerminalObjectiveReferenceOK",
+                "RecoveryPathReferenceOK",
+                "RecoveryTerminalReferenceOK",
+                "RecoveryReferenceOK"
+              ],
+              "comparisons": {
+                "ForwardAvailabilityReferenceOK": {
+                  "live": true,
+                  "match": true,
+                  "reference": true
+                },
+                "RecoveryPathReferenceOK": {
+                  "live": true,
+                  "match": true,
+                  "reference": true
+                },
+                "RecoveryReferenceOK": {
+                  "live": true,
+                  "match": true,
+                  "reference": true
+                },
+                "RecoveryTerminalReferenceOK": {
+                  "live": true,
+                  "match": true,
+                  "reference": true
+                },
+                "TerminalObjectiveReferenceOK": {
+                  "live": true,
+                  "match": true,
+                  "reference": true
+                }
+              }
+            },
+            "status": "COMPLETED"
+          }
+        }
+      ],
+      "case_id": "PE11-N-7f4fc6e93c98c7ca16a6",
+      "classification": "PREREGISTERED_INFRASTRUCTURE_RETRY",
+      "counted_as_semantic_outcome": true,
+      "phase": "R3_OFFICIAL_77",
+      "replacement_or_deletion": false,
+      "valid_semantic_result_attempt": 2
+    }
+  ],
+  "mismatch_forensics": {
+    "additional_posthoc_replication": "NOT_WARRANTED",
+    "artifact": "04_results_pe11/D6_live_frr/final_closure/D6_MISMATCH_FORENSICS.json",
+    "case_ids": [
+      "PE11-NM-2b90980a417fb9eabc51",
+      "PE11-NM-31d4f3663a90642b86f6"
+    ],
+    "joint_mechanism": "C_EVALUATOR_EXECUTION_REPRESENTATION_BOUNDARY"
+  },
+  "official_case_results": [
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-abd777a61d1dbe21e88f",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": false,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 1,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": false,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryPathReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R2",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-18dc110107713e5582f4",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 2,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_TRIGGER",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-2f2b8ec96a4168bf24af",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 3,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R1",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-9b960c8dd40884316849",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 4,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-dd00cf055d64a8473efe",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 5,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-76fe9c46cdbc2d95d465",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 6,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-599ec60ee82ffc5f10e3",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 7,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-b1329b0a5a1536d5010a",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 8,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-49e0e3363cf388a693bf",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 9,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-1d2e36762a89b1bfe245",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 10,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-27b8e4640d6467043a92",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 11,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-99178b4927c69ecf2caa",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 12,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-e5832260c98091f29a33",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 13,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-3a3c520340e481f0ed7a",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 14,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-c8205f6c313c57c9e3cc",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 15,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-87f8904b8e92ad80c9ad",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 16,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-2f46f779abd386ec6c7a",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 17,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-e4cbe75590701d6e5591",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 18,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-9dd0d1acce75d155392b",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 19,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-e0d4b014cd3ed3588291",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 20,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-79459b7de1367600b734",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 21,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-ebd6ad75cbc4d1e89493",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 22,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-602348f286c84865726c",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 23,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": false,
+      "case_id": "PE11-NM-2b90980a417fb9eabc51",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 24,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": false,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": false,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-02e03a6758c430a73245",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 25,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-b487e419291ffde51f47",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 26,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-092a8a0be84dc5032f4d",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 27,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-b2266c0c2d0c1473c637",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 28,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-03678ae0502d543fd146",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 29,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-c9c7e211b164b1567ca0",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 30,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-422092cd40c57dc61923",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 31,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-50e6264b7c3fc5fabe3d",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 32,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-9417ad4b7d22e2f2d717",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 33,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-e505b6208be98df540f9",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 34,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-9a83a0833989ddba1b9d",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 35,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-e3d3fd0b429c5adc7c89",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 36,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-c4cea566e757f720cb0c",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 37,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-72596a2a05ffc73f7703",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 38,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-878d505d0e184ee0b7c5",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 39,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-da5fa1338876bf248a44",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 40,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-4014f5aaf53968927174",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 41,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": false,
+      "case_id": "PE11-NM-31d4f3663a90642b86f6",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 42,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": false,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": false,
+            "reference": false
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": false,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": false,
+            "reference": false
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": false,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-51f1fe5b9f5c56ca1a9d",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 43,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-5e7e4cd22f3454e00825",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 44,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-1c846a671f2eb966206d",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": false,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 45,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": false,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-ae16744d50985b236e57",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 46,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-bbf467e71b18d23f2d76",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 47,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-5d375e77202cb838cc14",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 48,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-6279637e6d3549494221",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 49,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-86b6088fa5145abf71f4",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 50,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-55b8bb7903577684c95a",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 51,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-3a2b10bdc6ccb86959b3",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 52,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-e256852f11b9b45f2f33",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 53,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-ebf665aa2405d1c83679",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 54,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-02882c5e9a749dbe7872",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 55,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-965c99c5dffbc6018a84",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 56,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-b9061e7cce6177e8143d",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 57,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-07d00f09822f9abe0db4",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 58,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-8fb2fca757387119cc96",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 59,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-eb427997e62c8789d31c",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 60,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-eaef141c74c6ff38f9cf",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 61,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-ed8094b524935391c964",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 62,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-efe191d336d97a11e823",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 63,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-d6af87ab4a313e4aa259",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 64,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-7439f83b5ba876d03e59",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 65,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-b4013899233b0a1f17f3",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 66,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-ab396846397a51f0fbce",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 67,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-1983cbc5d4148a4f7b32",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 68,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-139eff6a3e8dc99aa642",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 69,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": false,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-7cd7a7318f274e844b72",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 70,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-dbdee527c6028ed655ab",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 71,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-8893cd4e522e7f5f0ab3",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 72,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-d8eb7b1123d95115d716",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": false,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "ordinal": 73,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": false,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": false
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryPathReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-c791d5ed2b9baf6cb1bc",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 74,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": false,
+        "RecoveryReferenceOK": false,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-5a5fce721bb6e2f6f3b9",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 75,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-9362d783bd1ba47d65bc",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 76,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-NM-cd026dd6281d133fd7ab",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": false,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 77,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": false,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": false,
+            "match": true,
+            "reference": false
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-7f4fc6e93c98c7ca16a6",
+      "infrastructure_failures_before_valid_result": [
+        {
+          "attempt_index": 1,
+          "classification": "INFRASTRUCTURE_FAILURE",
+          "error": "InfrastructureFailure(\"quiescence measurement failed at baseline: % Can't open configuration file /etc/frr/vtysh.conf due to 'No such file or directory'.\\nConfiguration file[/etc/frr/frr.conf] processing failure: 11\\nbgpd is not running\")"
+        }
+      ],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 78,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-df4be0ded83b7e21ad06",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 79,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    },
+    {
+      "agreement": true,
+      "case_id": "PE11-N-412e6be7c2dbfb65afe1",
+      "infrastructure_failures_before_valid_result": [],
+      "measured_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "ordinal": 80,
+      "reference_semantic_obligations": {
+        "ForwardAvailabilityReferenceOK": true,
+        "RecoveryPathReferenceOK": true,
+        "RecoveryReferenceOK": true,
+        "RecoveryTerminalReferenceOK": true,
+        "TerminalObjectiveReferenceOK": true
+      },
+      "semantic_comparison": {
+        "agreement": true,
+        "compared_fields": [
+          "ForwardAvailabilityReferenceOK",
+          "TerminalObjectiveReferenceOK",
+          "RecoveryPathReferenceOK",
+          "RecoveryTerminalReferenceOK",
+          "RecoveryReferenceOK"
+        ],
+        "comparisons": {
+          "ForwardAvailabilityReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryPathReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "RecoveryTerminalReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          },
+          "TerminalObjectiveReferenceOK": {
+            "live": true,
+            "match": true,
+            "reference": true
+          }
+        }
+      },
+      "source_round": "R3_OFFICIAL_77",
+      "status": "COMPLETED"
+    }
+  ],
+  "official_results_unchanged": true,
+  "provenance_integrity": {
+    "continuation_gate_actual_sha256": "28ee9660c8eda215a04b283ebbc782c85c4e45211b1a092d5348d85d9ee05797",
+    "continuation_gate_expected_sha256_from_launch": "28ee9660c8eda215a04b283ebbc782c85c4e45211b1a092d5348d85d9ee05797",
+    "continuation_gate_hash_match": true,
+    "r3_seal_file_count": 28,
+    "r3_seal_files": [
+      {
+        "actual_sha256": "c1ca139746546407d95a6e40498277dc6db793fe5bfcd476cf1108a7709c06e2",
+        "exists": true,
+        "expected_sha256": "c1ca139746546407d95a6e40498277dc6db793fe5bfcd476cf1108a7709c06e2",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_INFRASTRUCTURE_REPAIR_R2_SEAL.json"
+      },
+      {
+        "actual_sha256": "334dc143e6e52c0bcddd0ddae8f73c47957fd450adb826cfa63b93babf0709c3",
+        "exists": true,
+        "expected_sha256": "334dc143e6e52c0bcddd0ddae8f73c47957fd450adb826cfa63b93babf0709c3",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_EXECUTION_CONTINUATION_R2_SEAL.json"
+      },
+      {
+        "actual_sha256": "8911127111b7a5b830d78241c76ff7c1f1dabbf7b86941c13873731e714c5588",
+        "exists": true,
+        "expected_sha256": "8911127111b7a5b830d78241c76ff7c1f1dabbf7b86941c13873731e714c5588",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_SELECTION_MANIFEST_PE11.json"
+      },
+      {
+        "actual_sha256": "86e9a219d08b30a043995136ee1a389b69d1641c761bb8af44559083258b9d27",
+        "exists": true,
+        "expected_sha256": "86e9a219d08b30a043995136ee1a389b69d1641c761bb8af44559083258b9d27",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_PREEXECUTION_INPUT_MANIFEST_PE11.json"
+      },
+      {
+        "actual_sha256": "0b86f09ecc68df696f96081dafac489985a439ce02e780f038e36049bb71d978",
+        "exists": true,
+        "expected_sha256": "0b86f09ecc68df696f96081dafac489985a439ce02e780f038e36049bb71d978",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_REMAINING_EXECUTION_MANIFEST_R2.json"
+      },
+      {
+        "actual_sha256": "47c4a95dc19fce473337845910ad2be28bc86f1a1efab20819b6fc5c4ce32426",
+        "exists": true,
+        "expected_sha256": "47c4a95dc19fce473337845910ad2be28bc86f1a1efab20819b6fc5c4ce32426",
+        "match": true,
+        "path": "<LOCAL_PATH>/run_d6_live_frr_pe11_r2.py"
+      },
+      {
+        "actual_sha256": "efd94b8edeb92d151d6d08a2903ce0bb16e58a8be04a40b12b39fdb8efef53fa",
+        "exists": true,
+        "expected_sha256": "efd94b8edeb92d151d6d08a2903ce0bb16e58a8be04a40b12b39fdb8efef53fa",
+        "match": true,
+        "path": "<LOCAL_PATH>/d6_infra_repair_r3.py"
+      },
+      {
+        "actual_sha256": "c01e35c93abca25a435da9fec863f1630a8c840b7ee3bd5b949f496d7a7c6a73",
+        "exists": true,
+        "expected_sha256": "c01e35c93abca25a435da9fec863f1630a8c840b7ee3bd5b949f496d7a7c6a73",
+        "match": true,
+        "path": "<LOCAL_PATH>/run_d6_live_frr_pe11_r3.py"
+      },
+      {
+        "actual_sha256": "b27057055e5a13bde5c2e8dd3440e08bc7d68ff9aec334c3077cf0ff6a128682",
+        "exists": true,
+        "expected_sha256": "b27057055e5a13bde5c2e8dd3440e08bc7d68ff9aec334c3077cf0ff6a128682",
+        "match": true,
+        "path": "<LOCAL_PATH>/build_d6_infra_repair_r3_seal.py"
+      },
+      {
+        "actual_sha256": "8942a251cbebb55085d4555e9224439538928985a56f7e359afcec6773728f96",
+        "exists": true,
+        "expected_sha256": "8942a251cbebb55085d4555e9224439538928985a56f7e359afcec6773728f96",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_INFRASTRUCTURE_REPAIR_R3.md"
+      },
+      {
+        "actual_sha256": "33b4d9e75e2f50249527efbd554a146a257a296097690abbf33629d06c20dc05",
+        "exists": true,
+        "expected_sha256": "33b4d9e75e2f50249527efbd554a146a257a296097690abbf33629d06c20dc05",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_INFRASTRUCTURE_REPAIR_R3_PROTOCOL.json"
+      },
+      {
+        "actual_sha256": "d10fdb52bb3d154d3fdacb4864094fa5ed517ad34c2af2618dade937ebb0e950",
+        "exists": true,
+        "expected_sha256": "d10fdb52bb3d154d3fdacb4864094fa5ed517ad34c2af2618dade937ebb0e950",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_R3_PRELIVE_INTERLOCK_REPAIR.md"
+      },
+      {
+        "actual_sha256": "f07d5be945237de5ae0c9718667ccf808fbe402f8d238c86e707a974149dec9c",
+        "exists": true,
+        "expected_sha256": "f07d5be945237de5ae0c9718667ccf808fbe402f8d238c86e707a974149dec9c",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_INFRASTRUCTURE_REPAIR_R3_SEAL_PRELIVE_SUPERSEDED.json"
+      },
+      {
+        "actual_sha256": "e3cc887e3c2301ae6a457d274111e1158ab0256bf7d62dee8ec6afaf464391ea",
+        "exists": true,
+        "expected_sha256": "e3cc887e3c2301ae6a457d274111e1158ab0256bf7d62dee8ec6afaf464391ea",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_INFRASTRUCTURE_REPAIR_R3_PRESEAL_VERIFICATION_PRELIVE_SUPERSEDED.json"
+      },
+      {
+        "actual_sha256": "db09c41f5570e5763706e5e7b1f2f7c266bd5287036223bfad072cdbfe74c3d4",
+        "exists": true,
+        "expected_sha256": "db09c41f5570e5763706e5e7b1f2f7c266bd5287036223bfad072cdbfe74c3d4",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_R2_BATCH_ABORT_BGP_HARNESS_DEFECT.json"
+      },
+      {
+        "actual_sha256": "3d89bcd6258bf464678e801e78220a01553f58a77494f7d1743cfc7bfee46ddc",
+        "exists": true,
+        "expected_sha256": "3d89bcd6258bf464678e801e78220a01553f58a77494f7d1743cfc7bfee46ddc",
+        "match": true,
+        "path": "<LOCAL_PATH>/case_semantic_result.json"
+      },
+      {
+        "actual_sha256": "ea2d143f1b45f1330fa0f1a1bdf7dc8d1e0c376fcd21def2a833e68c89579b9b",
+        "exists": true,
+        "expected_sha256": "ea2d143f1b45f1330fa0f1a1bdf7dc8d1e0c376fcd21def2a833e68c89579b9b",
+        "match": true,
+        "path": "<LOCAL_PATH>/control_summary.json"
+      },
+      {
+        "actual_sha256": "2ebbacec4f10c8b3dc183effaaa550d86d1dbf8cffb20ed611f848bd51627bd2",
+        "exists": true,
+        "expected_sha256": "2ebbacec4f10c8b3dc183effaaa550d86d1dbf8cffb20ed611f848bd51627bd2",
+        "match": true,
+        "path": "<LOCAL_PATH>/probe_summary.json"
+      },
+      {
+        "actual_sha256": "4b2198c4263e5ca7a69478f9f570dd1905bb5e40e030af1ff54be8e8a7f0f9d5",
+        "exists": true,
+        "expected_sha256": "4b2198c4263e5ca7a69478f9f570dd1905bb5e40e030af1ff54be8e8a7f0f9d5",
+        "match": true,
+        "path": "<LOCAL_PATH>/test_d6_infra_repair_v1.py"
+      },
+      {
+        "actual_sha256": "42c84acec2f31be75d7e49197f14509b609adc87ebc2ac9bdda1c89193784214",
+        "exists": true,
+        "expected_sha256": "42c84acec2f31be75d7e49197f14509b609adc87ebc2ac9bdda1c89193784214",
+        "match": true,
+        "path": "<LOCAL_PATH>/test_d6_repair_runner_r1.py"
+      },
+      {
+        "actual_sha256": "d8d6620abac63bfe44161071e453411b4031333a63e2b4c010c543d428227e1a",
+        "exists": true,
+        "expected_sha256": "d8d6620abac63bfe44161071e453411b4031333a63e2b4c010c543d428227e1a",
+        "match": true,
+        "path": "<LOCAL_PATH>/test_d6_infra_repair_r2.py"
+      },
+      {
+        "actual_sha256": "2ba5081c9d9002acd993158e54adc1137b5559a798cd650da440174b422e1eba",
+        "exists": true,
+        "expected_sha256": "2ba5081c9d9002acd993158e54adc1137b5559a798cd650da440174b422e1eba",
+        "match": true,
+        "path": "<LOCAL_PATH>/test_d6_repair_runner_r2.py"
+      },
+      {
+        "actual_sha256": "18dcb247f860b34e84d7773a6eb34c4b055bd814e1d9fa31c205c014ebd358bf",
+        "exists": true,
+        "expected_sha256": "18dcb247f860b34e84d7773a6eb34c4b055bd814e1d9fa31c205c014ebd358bf",
+        "match": true,
+        "path": "<LOCAL_PATH>/test_d6_infra_repair_r3.py"
+      },
+      {
+        "actual_sha256": "67d1376f128a8b2f37ec552f9dc0e7777978d9ea082e3336f9b9fcc460ffdd93",
+        "exists": true,
+        "expected_sha256": "67d1376f128a8b2f37ec552f9dc0e7777978d9ea082e3336f9b9fcc460ffdd93",
+        "match": true,
+        "path": "<LOCAL_PATH>/test_d6_repair_runner_r3.py"
+      },
+      {
+        "actual_sha256": "19494b57e8a0c41d94a2732e2f0317738495f20c1427a9f31331a14adc7b908b",
+        "exists": true,
+        "expected_sha256": "19494b57e8a0c41d94a2732e2f0317738495f20c1427a9f31331a14adc7b908b",
+        "match": true,
+        "path": "<LOCAL_PATH>/test_d6_infra_repair_seal_v3.py"
+      },
+      {
+        "actual_sha256": "3163558482436598bdab2ea8fc4ff491e60ee6433365884067bae1387685b19b",
+        "exists": true,
+        "expected_sha256": "3163558482436598bdab2ea8fc4ff491e60ee6433365884067bae1387685b19b",
+        "match": true,
+        "path": "<LOCAL_PATH>/test_live_frr_audit_selection_v8.py"
+      },
+      {
+        "actual_sha256": "efecd6f78bfc7a5fbc5f3a095ebd316215ac9ba96b60531e55365c0314d54056",
+        "exists": true,
+        "expected_sha256": "efecd6f78bfc7a5fbc5f3a095ebd316215ac9ba96b60531e55365c0314d54056",
+        "match": true,
+        "path": "<LOCAL_PATH>/test_live_frr_containerlab_v8.py"
+      },
+      {
+        "actual_sha256": "6955f56fa01216fb1ec1bc1b3cd420ea732aa146573ad97e915c3da0ed4cc94f",
+        "exists": true,
+        "expected_sha256": "6955f56fa01216fb1ec1bc1b3cd420ea732aa146573ad97e915c3da0ed4cc94f",
+        "match": true,
+        "path": "<LOCAL_PATH>/D6_INFRASTRUCTURE_REPAIR_R3_PRESEAL_VERIFICATION.json"
+      }
+    ],
+    "r3_seal_matches": 28,
+    "r3_seal_mismatch": 0,
+    "r3_seal_missing": 0,
+    "repair_seal_actual_sha256": "59901c9a93e8c06c2e03f0dda8f4663e64744f886e41a5a441dde243663ec786",
+    "repair_seal_expected_sha256_from_launch": "59901c9a93e8c06c2e03f0dda8f4663e64744f886e41a5a441dde243663ec786",
+    "repair_seal_hash_match": true
+  },
+  "schema_id": "GRANT1_PE11_D6_FINAL_CLOSURE_V1",
+  "scientific_authority": "DETERMINISTIC_FROZEN_GATES_NO_AI_JUDGE",
+  "selection": {
+    "selected_case_ids": [
+      "PE11-NM-abd777a61d1dbe21e88f",
+      "PE11-N-18dc110107713e5582f4",
+      "PE11-N-2f2b8ec96a4168bf24af",
+      "PE11-N-9b960c8dd40884316849",
+      "PE11-N-dd00cf055d64a8473efe",
+      "PE11-NM-76fe9c46cdbc2d95d465",
+      "PE11-N-599ec60ee82ffc5f10e3",
+      "PE11-N-b1329b0a5a1536d5010a",
+      "PE11-N-49e0e3363cf388a693bf",
+      "PE11-N-1d2e36762a89b1bfe245",
+      "PE11-N-27b8e4640d6467043a92",
+      "PE11-N-99178b4927c69ecf2caa",
+      "PE11-N-e5832260c98091f29a33",
+      "PE11-N-3a3c520340e481f0ed7a",
+      "PE11-NM-c8205f6c313c57c9e3cc",
+      "PE11-NM-87f8904b8e92ad80c9ad",
+      "PE11-N-2f46f779abd386ec6c7a",
+      "PE11-N-e4cbe75590701d6e5591",
+      "PE11-NM-9dd0d1acce75d155392b",
+      "PE11-NM-e0d4b014cd3ed3588291",
+      "PE11-N-79459b7de1367600b734",
+      "PE11-N-ebd6ad75cbc4d1e89493",
+      "PE11-N-602348f286c84865726c",
+      "PE11-NM-2b90980a417fb9eabc51",
+      "PE11-N-02e03a6758c430a73245",
+      "PE11-NM-b487e419291ffde51f47",
+      "PE11-N-092a8a0be84dc5032f4d",
+      "PE11-NM-b2266c0c2d0c1473c637",
+      "PE11-NM-03678ae0502d543fd146",
+      "PE11-N-c9c7e211b164b1567ca0",
+      "PE11-NM-422092cd40c57dc61923",
+      "PE11-N-50e6264b7c3fc5fabe3d",
+      "PE11-NM-9417ad4b7d22e2f2d717",
+      "PE11-N-e505b6208be98df540f9",
+      "PE11-NM-9a83a0833989ddba1b9d",
+      "PE11-N-e3d3fd0b429c5adc7c89",
+      "PE11-N-c4cea566e757f720cb0c",
+      "PE11-NM-72596a2a05ffc73f7703",
+      "PE11-N-878d505d0e184ee0b7c5",
+      "PE11-N-da5fa1338876bf248a44",
+      "PE11-NM-4014f5aaf53968927174",
+      "PE11-NM-31d4f3663a90642b86f6",
+      "PE11-N-51f1fe5b9f5c56ca1a9d",
+      "PE11-N-5e7e4cd22f3454e00825",
+      "PE11-NM-1c846a671f2eb966206d",
+      "PE11-N-ae16744d50985b236e57",
+      "PE11-N-bbf467e71b18d23f2d76",
+      "PE11-NM-5d375e77202cb838cc14",
+      "PE11-N-6279637e6d3549494221",
+      "PE11-N-86b6088fa5145abf71f4",
+      "PE11-N-55b8bb7903577684c95a",
+      "PE11-NM-3a2b10bdc6ccb86959b3",
+      "PE11-N-e256852f11b9b45f2f33",
+      "PE11-N-ebf665aa2405d1c83679",
+      "PE11-N-02882c5e9a749dbe7872",
+      "PE11-N-965c99c5dffbc6018a84",
+      "PE11-N-b9061e7cce6177e8143d",
+      "PE11-N-07d00f09822f9abe0db4",
+      "PE11-N-8fb2fca757387119cc96",
+      "PE11-NM-eb427997e62c8789d31c",
+      "PE11-N-eaef141c74c6ff38f9cf",
+      "PE11-N-ed8094b524935391c964",
+      "PE11-N-efe191d336d97a11e823",
+      "PE11-N-d6af87ab4a313e4aa259",
+      "PE11-N-7439f83b5ba876d03e59",
+      "PE11-N-b4013899233b0a1f17f3",
+      "PE11-N-ab396846397a51f0fbce",
+      "PE11-NM-1983cbc5d4148a4f7b32",
+      "PE11-NM-139eff6a3e8dc99aa642",
+      "PE11-N-7cd7a7318f274e844b72",
+      "PE11-N-dbdee527c6028ed655ab",
+      "PE11-NM-8893cd4e522e7f5f0ab3",
+      "PE11-NM-d8eb7b1123d95115d716",
+      "PE11-NM-c791d5ed2b9baf6cb1bc",
+      "PE11-N-5a5fce721bb6e2f6f3b9",
+      "PE11-N-9362d783bd1ba47d65bc",
+      "PE11-NM-cd026dd6281d133fd7ab",
+      "PE11-N-7f4fc6e93c98c7ca16a6",
+      "PE11-N-df4be0ded83b7e21ad06",
+      "PE11-N-412e6be7c2dbfb65afe1"
+    ],
+    "selected_count": 80,
+    "selection_sha256": [
+      "0149b0d57e0791d4053140634e6f75bd2e6ae06f1555b246e6464fb470775491",
+      "026a30546a647fcaa6be0ca9a74e1791883e4ec2ac5e2097f7a9d31ef771eb0d",
+      "02e9de17e12c58e0e6c77fd57e8d598db925e7b6473aa2f96131dc80d9b4a2d8",
+      "051474809c3d46808be3c907a517599ed23c1b069dfcc515d82f300943f254bf",
+      "055bd0ce02d5fcb04323014aa7532aa57e12733ecd614fbc4cdb6bcb85dffcb3",
+      "057af32497a1547f9231b8cfb4aaeb8f0a927e13fbd6d33baef0cc8f8586bb87",
+      "069871388456d7e50227c22640f23feb9578ead218d5e096e7ce143303e42f0a",
+      "090448f7f49b1ca996cd415c117278803b73584eb8bbaad3c20d1666c4b9f0d1",
+      "09442cd040fa05604ce1b4d3201fe64ed93fd197b1729416ec794d5f2fb287f1",
+      "094776303ba4dfef4cda9c50def62338594a49ff0a8614fc0520c9a67513dfab",
+      "09b8c764c18539abadf76f8ebdd86e50051fba7a29a54bde8667a11c7c1b7a31",
+      "0acf15d9c2317665dc2ee16f0ab54e93441744ec953f937496c1924ed931808b",
+      "0ad8790d601d4708abb007230d8d71a25687458298b9bf36c208d13b7b89dd41",
+      "0cece675d51c8f359ce5d1305760d42e4dbd85b8edbb47cbe8c23610316b5e14",
+      "0d348ff5ea7e3caad5469c07927bd76f3939b35b30f80b724390d6612a4d7ef3",
+      "0d70bb943bce4adb1a93616a85e5410ef493633a39015fdd70537fd6a588a90f",
+      "0d84ea4e9535c30f8b417bdf8bbd3a0609db5a2a6f9f771f55b41be0c20030ef",
+      "0d86aea1469c6ef541dce82f0f37f5ab40d7fbc4783d0064727403b983527f7c",
+      "0dbc5f959e982b562436dfa346467f901d761149038571e2c8190bc502550c2f",
+      "0e75389fb47ca0f027efb35047c68947e4255e13d91f7a82c9c5d5e44d15a40c",
+      "0e940ed930b7c9bf488c58c0ed0949f38b318a83b88ea1cab15e063727f9b6b6",
+      "111d503930ba69806efcbefc9f973a0d720ea783d4d7b8abfb0a9fe7a745802f",
+      "1204de2b248ab606291e4aa7b6108efb6c51b281a46d76e69bcb9685c84b10e6",
+      "1448892160cdb7ddda006971d4752e9c2a32119945ae33cdeb9eb36eccb7d019",
+      "14891cf462f36a4c17bd4f98639c0337e048a3301ec6b9ac5377055bfb9b03a4",
+      "14b64907b9fbff0c519c2f771c5af009894aeed0cf6b3999e9b35859e24bd47c",
+      "155e4625fddc5e46c9d058056ab0b1b129868b7a31d5863d8e84547e1ebb2996",
+      "1689e549d58c8d267b81a70319358937cd61d64f90d63d57af06db551329ba37",
+      "16cf46e1f5e42b71387627113d0fe8a711643da27215ae6d35b1135c687c965e",
+      "1783f5b8eea9f459b84615e9aefb367576d1f42a0e4b13b95886ee3d6b05cc00",
+      "19261ff83dace2f5cad97cf3a7eee50ec39adc3b1a487fb7136efab2ee222f76",
+      "19400a49280c0861665cbde2ae62e242cbeb247fe0448de284933a42e7a76398",
+      "1a059ec328ab0d9f7187b8c2574a5a697d27ccb7e07f40cde2896ad535de4ce7",
+      "1a6ca4bdad9e398a9dbcd66eb1497927934a1c5cd027f91478ae6addb4d57def",
+      "1b0467e7b729076f40304dc496cc3bd4a67eb7be02e551fc2f25e858db844d1e",
+      "1be1d6fbc392a500653c7730b487cdc5928e99dd0f8e491b5877eada72af7227",
+      "1c15441232c8ff03ed7343efa7e896a76a299a19047c43eb04fbf9b16bc9f268",
+      "209a737d7cf88aad140c98249d9e760dbeadbff4b880f971f57f86e1ebf21bb9",
+      "209de8f59234a8af02fd4dadbb54151688d558ad2a15dbf0b994246f7963b742",
+      "20f1fa07ed91fd7ca57ec25a97cbb87e29865586913e140efa40b40ebf85bc05",
+      "2153e6a2990f22f90ca06d611b7f0a5ad21406274d74e93d725d8890bc7fc28b",
+      "2705db424eda6ce62134db9cbae427b868fbabe90735508c3b091450776b0f9b",
+      "2741a12ce0e000ec21192ae1f276fb422e10514bac2047d63d851a61f830a5c9",
+      "2b8943cb382fd1480f8ed01ffdc8982b24411e7369fc44e125c7379373c5fdca",
+      "2d27d92b2c527d6fb097cb6fb8b247f6cecacce30cf14cc0422ae85ac77f7bdc",
+      "2f30738f4d76ac9a062e307b1fd5af6249604540f9057915d3df770d6a98ee28",
+      "31c20f83017fe721d08e8cd75a2ed484dac994da7e6edba7138dc4bd67057e3a",
+      "326b8762a19294897a1542f9671c04adc486cf45a1309920f0aedf107d486345",
+      "330138bf5e1d5aa678dc56f5613428e9f89c7537f18a56e71f8451e6290ef42d",
+      "337d071848441e33bfeefaf8a3d8e850a9bb13b6898be92f966c8f414d504fe4",
+      "35053a69fff0c3f46882d69e1ef02fa980fd26871ef87ba50a23111c8bbef626",
+      "35bb2e9b732812754cd6730f2d02a5925f0094c17623cc6a9a32f2cab4ad13aa",
+      "361d2682bb0f7ced449ed98444633739cdc56d3a0585dd3dde24143a5877be61",
+      "36bfc59a0b958888f49fcfd056327e13b975f8c39dc3e20cdf32cde505ef9a0c",
+      "39e10e7a4ea869e57b2be07b841572d65f748c12baa539d29f792f67b809549c",
+      "3b103810b54fe8d8325c8890378abf5c39141b532e5cba51c32bced6eec88bb2",
+      "3ba5b493f27a99ed55cf2ef0e5aa0e6d043d2cec24d13047599498b09e0937ef",
+      "3c1a118424d22ad6808c024a11c374d5a59c6b2a74cb46f80c03e74af7856326",
+      "3dc75ba50d12e2c3e6ae107b16f21237cf263be0b40de20cb818417e3ca1c245",
+      "3e28a444f57c759008d0bd0f26dfd4a3191d58fcfe869d392f47190813f65214",
+      "3eac0f057bc7d41b5d5afeed91b7d8f3332d17b5e3d7e0965936e67cda6c575a",
+      "41e9ee5920afd939201af415b4197b11fc8408525220439e8fc6101008bed197",
+      "41f2c5b4117d6bef880215e159ef6b86adc419dd39ed96db3346db3737388c95",
+      "4327235b0c72ef2f43fbc2c02974ebaa68439e84f68a6b33122d5ccfb8fe5a1e",
+      "43541217aa4d3fd14436d99e7a71d4a69b42ff49494f6b9cd3940c9ff9651d8b",
+      "440d9679ad020bc27cbdfc766fb0771dd612106f9fb779c6851d6a2a6c466f8c",
+      "447b61f6e97dbdb27ad159d5ac63ec260870d6b772f5f34b5cf6a9eb61fbf8c0",
+      "4493a8bc8270096876d966e7b14140474d382d3874666f14a7997e347e46a361",
+      "44f483e4d3a8023dd4cf7b918dbf2c80cf04cc9e601e1a090035e435ed3a374c",
+      "45f95db60326d72e240c918400cdc581ae01d6a65f83ab55b8ce06eb567df1c0",
+      "4677f7c8dd1b3a998e75cc758cbc94e8fd490f576cc4d2ab87d37618083ad5b1",
+      "46f4acd2d685eda44768abf818a6e30a5f61cc64b64136823b17856b64b68990",
+      "490a1cdba41fde48b044d6d7fdc45a23ece1dc217b052d3f49e16987c769485a",
+      "4a8e0df7d04d5c7b195c5165f6a98e01fc6d9eb4e0f6bc857269b0fa1c81a3ce",
+      "4ac4e03461e29da31cfa7c0603426194baf07049575169bb574f2f2241e17a7c",
+      "4c614c2263681490a8d8c57b95128a4e8129c4e2415fcbd62a708f5aa5f91b9f",
+      "4ca8515beda4c6770963739e82934681ea07e58ce42eaf52821111fc0a19e1f8",
+      "4ce934ad5cc84a764cab11eddb19bc241896ada9b3268480bdbe1d27d8a349f8",
+      "4d0b99337882314554b126da6ecffd8f8f80f00a64a93e459e6ab47f71781199",
+      "4e43199cd68a77fd2beff829a0f24f20bbbac9d8313d2d7e4a3cf7daf962caed"
+    ],
+    "source": "04_results_pe11/D6_live_frr/preexecution/D6_SELECTION_MANIFEST_PE11.json",
+    "source_sha256": "8911127111b7a5b830d78241c76ff7c1f1dabbf7b86941c13873731e714c5588"
+  }
+}

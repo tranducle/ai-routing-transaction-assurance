@@ -1,0 +1,183 @@
+{
+  "assignment_manifest_internal_sha256": "7b190c7f6d0c41343eed98186a7634f303bd0afd309b8abf19bb1c12cae9c5a9",
+  "checks": {
+    "analysis_frozen_before_confirmatory_outcome": true,
+    "assignment_exact_1024": true,
+    "confirmatory_output_absent": true,
+    "full_factorial_64x4x4": true,
+    "preexecution_environment_and_cost_pass": true,
+    "protocol_amended_before_confirmatory_outcome": true
+  },
+  "files": [
+    {
+      "path": "<LOCAL_PATH>/F0_SCIE_Q1_EVIDENCE_COVERAGE_GATE.json",
+      "sha256": "28ba90d12c9b02b8333b6b6df97e83df648c6a1ac8a9a24cfc421cc00a09a3b2"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE13_RECOVERY_ENRICHED_PROTOCOL_V1_PREASSIGNMENT.json",
+      "sha256": "e8a85a2a5253491ea25663ac5cf41a9d188ea12e02478382f37964ca3f3ed993"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE13_RECOVERY_ENRICHED_PROTOCOL.json",
+      "sha256": "585324c855fa3803f2d24d1a6bcbc7097dcd7fb12f2d5c58d8407d8c219f9e9c"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE13_PREOUTCOME_PROTOCOL_AMENDMENT.json",
+      "sha256": "411f07073c01d854e3ce474ea7aa15178ee43f8381291675b089652c749d2a9a"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE13_ASSIGNMENT_MANIFEST.json",
+      "sha256": "73d95b9435df67a84f5e3385aa50e8e69afc087baef7303ef2e28052ac1c2c33"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE13_PREEXECUTION_ENVIRONMENT_AND_COST.json",
+      "sha256": "b984f52a6bb8a6be4e2f012ca3ca2e69812e9949dbd2e3ce6d2bdb8f6c2d2737"
+    },
+    {
+      "path": "<LOCAL_PATH>/build_pe13_assignment.py",
+      "sha256": "f6ab7bd4df3bb3d3d25e4378b42886b892d53cd49d0f8904822abdf32a39f6f6"
+    },
+    {
+      "path": "<LOCAL_PATH>/run_pe13_generation.py",
+      "sha256": "e929605b5a675afdc13f90f4f08b65fede20c872b339a23f9e6c33430faf9c78"
+    },
+    {
+      "path": "<LOCAL_PATH>/build_pe13_preexecution_gate.py",
+      "sha256": "9f6273605df4389bb576d5b50a6b420003d1935d4f1142a6f303f474cce7341b"
+    },
+    {
+      "path": "<LOCAL_PATH>/run_pe13_reference_scoring.py",
+      "sha256": "83c75a4a33efb96f6042f366688a9e2b2a7dbf6a41ed0c15979bf2c7f6371b68"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE13_DEVELOPMENT_CALIBRATION_RECORDS.json",
+      "sha256": "77c2bdd5f4ecc7e4d4991a1bb0cfc421bc3f346a6ca9b4889a3707eefbcd76d3"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE13_DEVELOPMENT_CALIBRATION_GATE_BASE.json",
+      "sha256": "d9476c54ff27ec2bac94642cd6671bb4ab53632e5e5d1a5e21a438122c90fd98"
+    },
+    {
+      "path": "<LOCAL_PATH>/test_pe13_assignment_builder.py",
+      "sha256": "0e05d16135d5f1cf7d1ae20362515f831afb9125067d00b76817f5c2dc1b6f6c"
+    },
+    {
+      "path": "<LOCAL_PATH>/test_pe13_generation_runner.py",
+      "sha256": "418ae99c90c0e3cb9bd94a08bbe379ad8612d779ff0e9124e83c4917ba06d2a6"
+    },
+    {
+      "path": "<LOCAL_PATH>/test_pe13_preexecution_gate.py",
+      "sha256": "ef40441fb37cbbdefe5bd44a21d4638bdf4413af4e38f4c6b1b837e4abc987b6"
+    },
+    {
+      "path": "<LOCAL_PATH>/test_pe13_reference_scoring.py",
+      "sha256": "2332d4f867d712b0ebdfe3b5969b0d5f26dd9b7977f40aebbc9cf9bf376f2811"
+    },
+    {
+      "path": "<LOCAL_PATH>/primary_design_v8.py",
+      "sha256": "7a6be366567013d2e65e82a44e29ecb3fb64dc70f1c3cec8e06dc105481381de"
+    },
+    {
+      "path": "<LOCAL_PATH>/network_config_v8.py",
+      "sha256": "59d3933b680919a48f04f66f5952e44050b75b735c63dca9a08d22c3801faddd"
+    },
+    {
+      "path": "<LOCAL_PATH>/natural_proposal_protocol_v8.py",
+      "sha256": "2d8dacec69a126d5b4c049fdb90ac085129863494e4907dd725abeceb2c4136b"
+    },
+    {
+      "path": "<LOCAL_PATH>/natural_model_api_v8.py",
+      "sha256": "bc86f22e630cc87a75747b46d02186d2e24c9b8740b43bc50596942c71a0a792"
+    },
+    {
+      "path": "<LOCAL_PATH>/blind_view_v8.py",
+      "sha256": "5e0a2bc86b224dca5708595659e4c1622164d5f4ba24b54062fb9f664bc6afab"
+    },
+    {
+      "path": "<LOCAL_PATH>/natural_candidate_adapter_v9.py",
+      "sha256": "6a3e080658e5cbbd1b4c5828f958cdb8ba59b84e1fa52e987b0c13232cdf946c"
+    },
+    {
+      "path": "<LOCAL_PATH>/replay_adapter_v8.py",
+      "sha256": "8efee8c71da3e6401cccb72d1ce67349195a9565849600eee8d2c3ad098eb281"
+    },
+    {
+      "path": "<LOCAL_PATH>/batfish_executor_v8.py",
+      "sha256": "f1448ed08c88665fe8934caf306571c06207d15df50ffb17c9c3181f0cbe6d19"
+    },
+    {
+      "path": "<LOCAL_PATH>/semantic_evidence_v8.py",
+      "sha256": "de01117fcf4c9b0df044464f3325ca283f03fcb110999194617c23926a00522e"
+    },
+    {
+      "path": "<LOCAL_PATH>/reference_pipeline_v8.py",
+      "sha256": "c1a9c2f4e2e9fe0aa6741eebe7b742837b071713219a3268c923b775e003f584"
+    },
+    {
+      "path": "<LOCAL_PATH>/deterministic_oracle_a_v8.py",
+      "sha256": "2caf29cd0f8e36e88c49fc54b63382e6ab93fa94b3db628e62376194d3d3a098"
+    },
+    {
+      "path": "<LOCAL_PATH>/deterministic_oracle_b_v8.py",
+      "sha256": "4dc07d1e70b517596be5d9171f4353010653283d8023b309b4a2285a9034e087"
+    },
+    {
+      "path": "<LOCAL_PATH>/deterministic_replay_audit_v8.py",
+      "sha256": "fbcc5131c05b34622d66b8571215a7709fdedecc5636adafdcba763740bdae78"
+    },
+    {
+      "path": "<LOCAL_PATH>/reference_consensus_v8.py",
+      "sha256": "f9a1eda671f53f84c530aa54ce08cfcf2bb70692b8b90590cb7e10112b16ac6c"
+    },
+    {
+      "path": "<LOCAL_PATH>/method_verifier_v8.py",
+      "sha256": "9122e208f41af0651b3ee41a598b862ac1ea92c174b8f60cf71260656abf4d1d"
+    },
+    {
+      "path": "<LOCAL_PATH>/primary_scorer_v8.py",
+      "sha256": "280fefbd4df185d30a72b71d66e142dee358751c8837f538955ac05f4dc76c56"
+    }
+  ],
+  "frozen_analysis": {
+    "AI_judge": false,
+    "deterministic_reference_only": true,
+    "primary_comparison": "Full_vs_B5_on_reference_recovery_unsafe_subset",
+    "reference_before_method_scoring": true,
+    "safe_control": "Full_false_rejection_on_reference_safe_subset",
+    "strata_descriptive_only_unless_separately_eligible": true
+  },
+  "frozen_design": {
+    "BGP": 512,
+    "Delta_UAR_B5_min": 0.1,
+    "OSPF": 512,
+    "STRR_Full_exact95_upper_max": 0.15,
+    "STRR_Full_max": 0.1,
+    "assigned_model_proposals": 1024,
+    "contexts": 4,
+    "crossing": "EVERY_TASK_X_EVERY_MODEL_X_EVERY_CONTEXT",
+    "fresh_tasks": 64,
+    "minimum_context_families": 3,
+    "minimum_source_families": 3,
+    "models": 4,
+    "namespace": "PE13",
+    "no_PE11_pooling": true,
+    "no_case_addition_after_outcomes": true,
+    "no_post_outcome_filtering": true,
+    "recovery_reference_unsafe_min": 64,
+    "safe_reference_min": 64,
+    "witness_completeness_min": 0.95
+  },
+  "frozen_execution": {
+    "no_midstudy_cost_stopping_rule": true,
+    "openference_confirmatory_call_count": 512,
+    "openrouter_prelaunch_budget_guard_usd": 35.0,
+    "openrouter_prelaunch_projection_usd": 21.14246656,
+    "record_http200_invalid_json": true,
+    "semantic_retry": false,
+    "transport_or_model_id_retry_under_same_seal": true,
+    "workers": 8
+  },
+  "schema_id": "GRANT1_PE13_PREEXECUTION_SEAL_V1",
+  "scientific_authority": "DETERMINISTIC_PREOUTCOME_SEAL",
+  "verdict": "PASS"
+}

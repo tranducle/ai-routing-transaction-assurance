@@ -1,24 +1,5 @@
-# Anonymous Review Policy
+# Review Anonymity
 
-This repository is intentionally prepared for anonymous peer review.
+This artifact intentionally omits author names, affiliations, e-mail addresses, local usernames, machine paths, credentials, billing/account metadata, manuscript source, and manuscript figures.
 
-## Removed from the artifact
-
-The reviewer-facing release excludes:
-
-- author names and affiliations;
-- author email addresses and personal identifiers;
-- institution-specific acknowledgments;
-- manuscript source and compiled manuscript files;
-- manuscript figures;
-- local usernames, hostnames, and absolute filesystem paths;
-- API credentials, provider secrets, and private service metadata;
-- internal project-management, agent, or manuscript-review files that are not required for scientific reproduction.
-
-## Repository ownership
-
-The repository account itself may expose information outside the scientific artifact. Reviewers should evaluate the released artifact contents rather than infer authorship from repository ownership, commit metadata, or external account profiles.
-
-## Post-review release
-
-After the review process, author-identifying metadata and a formal citation file may be added in a separate revision if permitted by the venue. The anonymous review snapshot should remain reproducible through a tagged commit or archived release.
+The public hosting account is operational infrastructure and should not be treated as scientific metadata. Scientific provenance is carried by frozen case identifiers, study seals, SHA-256 hashes, deterministic evidence, and the released analysis rows.

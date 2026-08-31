@@ -1,0 +1,73 @@
+{
+  "checks": {
+    "all_schema_valid": true,
+    "balanced_protocols": true,
+    "balanced_reference_classes": true,
+    "colima_running": true,
+    "containerlab_0_79_0": true,
+    "docker_usable": true,
+    "frr_pinned_image_present": true,
+    "no_pe11_case_ids": true,
+    "no_pe12_b_outcomes_before_seal": true,
+    "selected_exactly_40": true
+  },
+  "environment": {
+    "colima_status": {
+      "command": [
+        "colima",
+        "status"
+      ],
+      "returncode": 0,
+      "stderr": "time=\"2026-08-29T16:04:44-05:00\" level=info msg=\"colima is running using macOS Virtualization.Framework\"\ntime=\"2026-08-29T16:04:44-05:00\" level=info msg=\"arch: aarch64\"\ntime=\"2026-08-29T16:04:44-05:00\" level=info msg=\"runtime: docker\"\ntime=\"2026-08-29T16:04:44-05:00\" level=info msg=\"mountType: virtiofs\"\ntime=\"2026-08-29T16:04:44-05:00\" level=info msg=\"docker socket: unix://<LOCAL_PATH>/docker.sock\"\ntime=\"2026-08-29T16:04:44-05:00\" level=info msg=\"containerd socket: unix://<LOCAL_PATH>/containerd.sock\"\n",
+      "stdout": ""
+    },
+    "containerlab_in_colima": {
+      "command": [
+        "colima",
+        "ssh",
+        "--",
+        "containerlab",
+        "version"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "\n ⣴⡾⠛⠛⠖ ⢠⣶⠟⠛⢷⣦ ⢸⣿⣧  ⣿ ⠘⠛⢻⡟⠛⠛  ⣾⣿⡀  ⣿⡇ ⣿⣿⡄ ⢸⡇ ⣿⡟⠛⠛⠃⢸⣿⠛⠛⣷⡄ \u001b[38;2;0;201;255m⣿⡇\u001b[0m      \u001b[38;2;0;201;255m⣿⡇\u001b[0m    \n⢸⣿     ⣿⡇   ⣿⡇⢸⣿⠹⣧⡀⣿   ⢸⡇   ⣸⡏⢹⣧  ⣿⡇ ⣿⡏⢿⣄⢸⡇ ⣿⣧⣤⣤ ⢸⣿⣀⣀⣾⠇ \u001b[38;2;0;201;255m⣿⡇⠐⠟⠛⢿⡆\u001b[0m \u001b[38;2;0;201;255m⣿⡷⠛⢿⣆\u001b[0m \n⠘⣿⣄  ⡀ ⢻⣧⡀ ⣠⣿⠃⢸⣿ ⠘⣷⣿   ⢸⡇  ⢠⣿⠷⠶⢿⡆ ⣿⡇ ⣿⡇ ⢻⣾⡇ ⣿⡇   ⢸⣿⠉⢻⣧⡀ \u001b[38;2;0;201;255m⣿⡇⢰⡟⠛⣻⡇\u001b[0m \u001b[38;2;0;201;255m⣿⡇\u001b[0m \u001b[38;2;0;201;255m⣸⡿\u001b[0m \n ⠈⠙⠛⠛⠉  ⠉⠛⠛⠋⠁ ⠘⠛  ⠈⠛   ⠘⠃  ⠚⠃  ⠘⠛ ⠛⠃ ⠛⠃  ⠙⠃ ⠛⠛⠛⠛⠃⠘⠛  ⠙⠓ \u001b[38;2;0;201;255m⠛⠃⠈⠛⠛⠙⠃\u001b[0m \u001b[38;2;0;201;255m⠛⠛⠛⠛⠁\u001b[0m \n\n    version: 0.79.0\n     commit: 5ae50094a\n       date: 2026-08-21T12:00:52Z\n     source: https://github.com/srl-labs/containerlab\n rel. notes: https://containerlab.dev/rn/0.79/\n"
+    },
+    "docker_context": {
+      "command": [
+        "docker",
+        "context",
+        "show"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "colima\n"
+    },
+    "docker_server": {
+      "command": [
+        "docker",
+        "version",
+        "--format",
+        "{{.Server.Version}}"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "29.2.1\n"
+    },
+    "frr_image": {
+      "command": [
+        "docker",
+        "image",
+        "inspect",
+        "quay.io/frrouting/frr@sha256:65e5967b922572c0565d968388fb06af69d7e9b3b3eea40ad7e3810687667f68",
+        "--format",
+        "{{json .RepoDigests}}"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "[\"quay.io/frrouting/frr@sha256:65e5967b922572c0565d968388fb06af69d7e9b3b3eea40ad7e3810687667f68\"]\n"
+    }
+  },
+  "schema_id": "GRANT1_PE12_PREEXECUTION_ENVIRONMENT_V1",
+  "verdict": "PASS"
+}

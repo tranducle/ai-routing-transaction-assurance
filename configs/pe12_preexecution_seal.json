@@ -1,0 +1,86 @@
+{
+  "environment_checks": {
+    "all_schema_valid": true,
+    "balanced_protocols": true,
+    "balanced_reference_classes": true,
+    "colima_running": true,
+    "containerlab_0_79_0": true,
+    "docker_usable": true,
+    "frr_pinned_image_present": true,
+    "no_pe11_case_ids": true,
+    "no_pe12_b_outcomes_before_seal": true,
+    "selected_exactly_40": true
+  },
+  "files": [
+    {
+      "path": "<LOCAL_PATH>/F0_SCIE_Q1_EVIDENCE_COVERAGE_GATE.json",
+      "sha256": "28ba90d12c9b02b8333b6b6df97e83df648c6a1ac8a9a24cfc421cc00a09a3b2"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE12_CORRECTIVE_LIVE_PROTOCOL.json",
+      "sha256": "10747c4b06975cd6e8ff8c665f71699fa761dfa6a6290161622b7c22eeaac7f4"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE12_LIVE_SELECTION_MANIFEST.json",
+      "sha256": "5a34b65820a27768e7ca7a367a497f7e4eaae4ed7d3a1aa93af604735d4f7755"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE12_PREEXECUTION_ENVIRONMENT.json",
+      "sha256": "2d6e4338926dcc26eb7e2c5582032d418291e5fbaf46e56f9bbec820be7edde5"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE12_PREEXECUTION_INPUT_MANIFEST.json",
+      "sha256": "5a34b65820a27768e7ca7a367a497f7e4eaae4ed7d3a1aa93af604735d4f7755"
+    },
+    {
+      "path": "<LOCAL_PATH>/transaction_execution_contract_v1.py",
+      "sha256": "e1fa6df1912fd2d61ba320e0b61e21a491f4dbdeff70c7dca9f9f024d5183b79"
+    },
+    {
+      "path": "<LOCAL_PATH>/build_pe12_live_cases.py",
+      "sha256": "b2b3476a05ff471d76a22eee411c65d249a84351ef7b4ad5e0b1e53557a9f011"
+    },
+    {
+      "path": "<LOCAL_PATH>/run_pe12_live_frr.py",
+      "sha256": "fb0ddadaa713579ab28f5b6153067048ec16f2a1e32cab4ff5157fc87d842aac"
+    },
+    {
+      "path": "<LOCAL_PATH>/F1_CANONICAL_CONTRACT_GATE.json",
+      "sha256": "a6e6bc5c452d45c0cedbbde5419fa1a123b2d3ca992943226d3d05d4afb50ac1"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE12_A_CONTRACT_CONFORMANCE.json",
+      "sha256": "96d24af09235061b23930621c298ec93ea57f38097f430d30697620c6ccec778"
+    },
+    {
+      "path": "<LOCAL_PATH>/PE12_A_GATE.json",
+      "sha256": "5f908286de9e751f4a473026b0571067ad49e1a00346f4fc921af843713461d1"
+    },
+    {
+      "path": "<LOCAL_PATH>/live_frr_containerlab_v8.py",
+      "sha256": "81888336792ba3cf05b1bb334b6be12625ab7246ae06c3853ea1e93895c66af3"
+    },
+    {
+      "path": "<LOCAL_PATH>/d6_infra_repair_v1.py",
+      "sha256": "1d3c4adf0a4d81504ba1f22137c8a94ff0024ef2b84fc586b2b8a13ff2ba78e6"
+    },
+    {
+      "path": "<LOCAL_PATH>/d6_infra_repair_r2.py",
+      "sha256": "11468c6d3196bb579ab3ba0f47d5585f020850f8208d3eb3386693fed317cf54"
+    },
+    {
+      "path": "<LOCAL_PATH>/d6_infra_repair_r3.py",
+      "sha256": "efd94b8edeb92d151d6d08a2903ce0bb16e58a8be04a40b12b39fdb8efef53fa"
+    }
+  ],
+  "frozen_acceptance": {
+    "max_infrastructure_retries_per_case": 1,
+    "selected_cases": 40,
+    "semantic_agreement_required": 1.0,
+    "semantic_mismatch_replacement_allowed": false
+  },
+  "historical_D6_replacement": false,
+  "schema_id": "GRANT1_PE12_PREEXECUTION_SEAL_V1",
+  "scientific_authority": "DETERMINISTIC_PREOUTCOME_SEAL",
+  "verdict": "PASS"
+}

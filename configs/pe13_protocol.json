@@ -1,0 +1,77 @@
+{
+  "schema_id": "GRANT1_PE13_RECOVERY_CONFIRMATION_PROTOCOL_V2",
+  "namespace": "PE13",
+  "role": "independent_recovery_path_confirmation",
+  "amendment_status": "PRE_CONFIRMATORY_OUTCOME_PRESEAL",
+  "amendment_reason": "Replace an underspecified recovery-pressure-only sampling phrase with the stronger frozen 64-task x 4-model x 4-context full-factorial design. This removes the PE11 context-protocol confounding while preserving anti-tautology rules and the original recovery eligibility/effect thresholds. No PE13 confirmatory model call or reference/method outcome existed at amendment time.",
+  "supersedes_sha256": "e8a85a2a5253491ea25663ac5cf41a9d188ea12e02478382f37964ca3f3ed993",
+  "scientific_question": "Across fresh independently generated model proposals under a balanced full-factorial task-model-context design, does recovery-path-aware Full reject reference-recovery-unsafe transactions that eventual-recovery-only B5 accepts without unacceptable safe rejection?",
+  "anti_tautology": {
+    "case_generation_may_not_use_Full_or_B5_decisions": true,
+    "case_selection_may_not_filter_on_recovery_label_after_generation": true,
+    "labels_assigned_by_frozen_deterministic_reference_before_method_scoring": true,
+    "authored_cases_designed_as_B5_blind_spots_forbidden_as_headline_evidence": true,
+    "PE11_cases_may_not_be_pooled": true,
+    "no_cases_may_be_added_after_outcomes": true
+  },
+  "frozen_sampling_design": {
+    "fresh_tasks": 64,
+    "models": 4,
+    "contexts": 4,
+    "model_proposals": 1024,
+    "crossing": "EVERY_TASK_X_EVERY_MODEL_X_EVERY_CONTEXT",
+    "protocol_balance": {
+      "BGP": 512,
+      "OSPF": 512
+    },
+    "model_count_each": 256,
+    "context_count_each": 256,
+    "assignment_manifest": "PE13_ASSIGNMENT_MANIFEST.json",
+    "selection_uses_reference_or_method_outcomes": false,
+    "semantic_retry": false,
+    "retain_all_attempted_outputs": true
+  },
+  "formal_eligibility": {
+    "exact_assigned_model_proposals": 1024,
+    "all_transport_integrity_resolved_before_final_scoring": true,
+    "recovery_reference_unsafe_min": 64,
+    "safe_reference_min": 64,
+    "minimum_source_families": 3,
+    "minimum_context_families": 3
+  },
+  "effect_thresholds": {
+    "Delta_UAR_B5_min": 0.1,
+    "STRR_Full_max": 0.1,
+    "STRR_Full_exact95_upper_max": 0.15,
+    "witness_completeness_min": 0.95
+  },
+  "analysis_policy": {
+    "primary_comparison": "Full_vs_B5_on_reference_recovery_unsafe_subset",
+    "safe_control": "Full_false_rejection_on_reference_safe_subset",
+    "uncertainty": "Clopper_Pearson_95_percent_for_safe_false_rejection; report exact counts and rates for recovery comparison",
+    "strata": [
+      "model_slug",
+      "context_condition",
+      "protocol",
+      "archetype",
+      "topology_scale",
+      "topology_family"
+    ],
+    "stratum_results": "descriptive unless separately eligible; no hidden subgroup claim promotion",
+    "invalid_json_http200": "observed schema-invalid scientific outcome; no semantic retry",
+    "transport_or_model_id_failure": "execution-integrity failure to recover under same seal; never relabel unsafe"
+  },
+  "sample_size_rationale": {
+    "planning_only_PE11_recovery_unsafe_count": 24,
+    "planning_only_PE11_total": 256,
+    "planning_point_prevalence": 0.09375,
+    "clopper_pearson_95_lower": 0.060993999204332176,
+    "clopper_pearson_95_upper": 0.13627843480433852,
+    "P_at_least_64_at_point_prevalence_for_N1024": 0.9998819152394188,
+    "P_at_least_64_if_true_rate_equals_PE11_95_lower_for_N1024": 0.4384832960933602,
+    "design_choice": "1024 is the largest clean full factorial over the frozen 64 structural tasks without repeating task structures; if the recovery floor is missed, the claim is demoted rather than adding cases post outcome"
+  },
+  "decision_if_ineligible": "DESCRIPTIVE_ONLY_DEMOTE_RECOVERY_HEADLINE",
+  "decision_if_eligible_and_effect_passes": "LICENSE_RECOVERY_NONREDUNDANCY_WITHIN_PE13_SCOPE",
+  "decision_if_eligible_and_effect_fails": "RECOVERY_HEADLINE_NOT_SUPPORTED"
+}
